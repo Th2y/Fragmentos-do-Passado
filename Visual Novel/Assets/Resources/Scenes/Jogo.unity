@@ -121,162 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &6649978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6649979}
-  - component: {fileID: 6649981}
-  - component: {fileID: 6649980}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &6649979
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6649978}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 651955084}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.8499985, y: 5.1200027}
-  m_SizeDelta: {x: -42.29164, y: -35.72229}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &6649980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6649978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Ant
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c683865259fffdf40aa23755215b819a, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: c683865259fffdf40aa23755215b819a, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_outlineColor:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontSize: 50
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 30
-  m_fontSizeMax: 50
-  m_fontStyle: 2
-  m_textAlignment: 514
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
-  m_linkedTextComponent: {fileID: 0}
-  m_isLinkedTextComponent: 0
-  m_isTextTruncated: 0
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_ignoreRectMaskCulling: 0
-  m_ignoreCulling: 1
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_firstVisibleCharacter: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_textInfo:
-    textComponent: {fileID: 6649980}
-    characterCount: 3
-    spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
-    linkCount: 0
-    lineCount: 1
-    pageCount: 1
-    materialCount: 1
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
-  m_subTextObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &6649981
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6649978}
-  m_CullTransparentMesh: 0
 --- !u!1 &23594356
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &36481552
 RectTransform:
   m_ObjectHideFlags: 0
@@ -589,7 +433,7 @@ RectTransform:
   m_Children:
   - {fileID: 2004006723}
   m_Father: {fileID: 1298121668}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -649,7 +493,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &148185170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1223,7 +1067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &338661509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,7 +1298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &367494774
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1519,7 +1363,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010772070}
-        m_MethodName: Opcoes
+        m_MethodName: Escolhas
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2011,6 +1855,162 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553019181}
   m_CullTransparentMesh: 0
+--- !u!1 &569059262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 569059263}
+  - component: {fileID: 569059265}
+  - component: {fileID: 569059264}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &569059263
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569059262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 810771356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.8500061, y: 5.1200027}
+  m_SizeDelta: {x: -42.29164, y: -35.72229}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &569059264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569059262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Iniciar
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: c683865259fffdf40aa23755215b819a, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: c683865259fffdf40aa23755215b819a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 50
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 30
+  m_fontSizeMax: 50
+  m_fontStyle: 2
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 569059264}
+    characterCount: 7
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &569059265
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569059262}
+  m_CullTransparentMesh: 0
 --- !u!1 &607026206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,136 +2216,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614880778}
-  m_CullTransparentMesh: 0
---- !u!1 &651955083
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 651955084}
-  - component: {fileID: 651955087}
-  - component: {fileID: 651955086}
-  - component: {fileID: 651955085}
-  m_Layer: 5
-  m_Name: Button Ant
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &651955084
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651955083}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6649979}
-  m_Father: {fileID: 1298121668}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 341, y: 25}
-  m_SizeDelta: {x: 180, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &651955085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651955083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 651955086}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1010772070}
-        m_MethodName: Anterior
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
---- !u!114 &651955086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651955083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 02324993e933048458ec4366fab70006, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &651955087
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651955083}
   m_CullTransparentMesh: 0
 --- !u!1 &714616825
 GameObject:
@@ -2781,7 +2651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &781490804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2846,7 +2716,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010772070}
-        m_MethodName: Opcoes
+        m_MethodName: Escolhas
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2893,6 +2763,136 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781490803}
   m_CullTransparentMesh: 0
+--- !u!1 &810771355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810771356}
+  - component: {fileID: 810771359}
+  - component: {fileID: 810771358}
+  - component: {fileID: 810771357}
+  m_Layer: 5
+  m_Name: Button Iniciar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &810771356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810771355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 569059263}
+  m_Father: {fileID: 1298121668}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -264}
+  m_SizeDelta: {x: 400, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &810771357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810771355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 810771358}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1010772070}
+        m_MethodName: Comecar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 1
+--- !u!114 &810771358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810771355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 02324993e933048458ec4366fab70006, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &810771359
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810771355}
+  m_CullTransparentMesh: 1
 --- !u!1 &861965538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3081,7 +3081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &910576159
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3533,6 +3533,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1010772071}
   - component: {fileID: 1010772070}
+  - component: {fileID: 1010772072}
+  - component: {fileID: 1010772073}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -3549,193 +3551,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1010772069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c740f1952f10126409d95647c45360f3, type: 3}
+  m_Script: {fileID: 11500000, guid: 58ea4e0ec97a55040a900301bd187cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ayla:
-  - {fileID: 338661508}
-  - {fileID: 910576158}
-  - {fileID: 1857651545}
-  Alice:
-  - {fileID: 1155336341}
-  - {fileID: 1674836927}
-  - {fileID: 36481551}
-  Cenarios:
-  - {fileID: 166708089}
-  - {fileID: 1281441237}
-  - {fileID: 1048914624}
-  dialogo: {fileID: 1564188174}
+  linhasIniciais: []
+  linhasA: []
+  linhasB: []
+  linhasBa: []
+  linhasBb: []
+  linhasBAa: []
+  linhasBAb: []
   personagem: {fileID: 1204281695}
-  linhasIniciais:
-  - "Ayla estava deitada na cama com celular em m\xE3os aberto no instagram quando
-    ela v\xEA em uma de suas fotos uma ex amiga de inf\xE2ncia com sua ex namorada
-    a Alice se beijando."
-  - "- Essa \xE9 a Alice.... Com a Carol\u2026?!? - Pensou surpresa se levantando
-    se sentando ali na cama, entrou no perfil da Carol sua ex amiga de inf\xE2ncia
-    podendo ver mais fotos rom\xE2nticas dela com a Alice, sentiu um peso em seu
-    cora\xE7\xE3o vendo aquelas fotos, sentia raiva e tristeza, um sentimento ego\xEDsta
-    de ver a Alice daquele jeito."
-  - "Saiu da cama jogando o celular na cama, foi at\xE9 a porta do seu quarto trancando
-    o mesmo e logo se dirigiu para seu guarda roupa, abriu a porta do guarda roupa
-    pegando um banquinho escondido subindo no mesmo, afastou algumas roupas colocando
-    de lado e logo puxou uma caixinha preta que se camuflava com as roupas que aqui
-    estavam, pegou a caixinha com cuidado descendo do banquinho se dirigindo at\xE9
-    a sua mesinha."
-  - Assim que Ayla abriu a tampa da caixa que tinha algumas coisinhas, puxou o forro
-    da mesma podendo ver suas fotos antigas com a Alice ali no fundo, suspirou pesado
-    pegando as fotos polaroids ali.
-  - 'Escolha:'
-  linhasA:
-  - Ayla olhou segurou as polaroides ali vendo as mesmas, fechou os olhos e rasgou
-    no meio ou jogou as imagens no lixo.
-  - "- Talvez seja melhor assim\u2026 - Falou baixo pra si mesma e quando ia fechar
-    a caixinha viu uma pulseira que havia feito de parzinho pra Alice, suspirou pegando
-    a mesma jogando no lixo, ia come\xE7ar a chorar por\xE9m respirou fundo contendo
-    as l\xE1grimas."
-  - "- Esse \xE9 o melhor fim\u2026 - Pensou ali co\xE7ando os olhos se sentando
-    na cama pegando o celular e colocou os fones plugados no celular, colocou os
-    fones deixando uma m\xFAsica rolar de fundo enquanto fechava os olhos para finalmente
-    poder dormir."
-  - "Voc\xEA concluiu essa linha temporal. Jogue novamente e escolha outras op\xE7\xF5es
-    para ver mais finais dessa historinha!"
-  linhasB:
-  - "Ayla olhou segurando as polaroides entre seus dedos e suspirou pesado, mexeu
-    nas pequenas fotos foi andando at\xE9 a janela, l\xE1 acabou apoiando na mesma
-    enquanto segurava as imagens ali."
-  - "- Seria muito bom poder voltar no tempo e poder ter voc\xEA de volta\u2026 -
-    Disse num sussurro olhando a foto e logo depois olhou o c\xE9u daquela noite
-    estrelada apertando o pequeno pedacinho de papel fotogr\xE1fico entre seus ded\xF5es,
-    fechou os olhos come\xE7ando a chorar ali."
-  - "- Tempo\u2026 por favor\u2026 traga de volta isso tudo que um dia foi meu\u2026
-    toda essa felicidade e amor que um dia j\xE1 senti\u2026 antes de ter sido arrancado
-    a for\xE7a de mim, por favor tempo, me devolva isso. - Disse baixo como em um
-    pedido suplicando toda aquela felicidade de voltar."
-  - "Assim que Ayla pode abrir os olhos se deparou com um local estranho, percebeu
-    o dia como manh\xE3  e ficou confuso com aquilo."
-  - "- Onde eu to\u2026? - Perguntou olhando o local ao redor logo reconhecendo a
-    casa da Alice, olhou a roupa ali se vendo na mesma roupa daquele dia."
-  - "- Eu to sonhando??- Perguntou confusa ali e se beliscou percebendo que aquilo
-    n\xE3o era um sonho, resmungou com a dor que sentiu no bra\xE7o"
-  - "-A\xED! Nossa, ent\xE3o \xE9 verdade!! - Disse espantada ao perceber que havia
-    realmente conseguido voltar no tempo."
-  - A Ayla olha ao redor e logo se depara com a Alice, ao seu lado, exatamente como
-    estavam na foto que ela tinha visto.
-  - "- Ayla? Do que voc\xEA est\xE1 falando? O que \xE9 verdade? - Disse sem entender
-    nada."
-  - "Voc\xEA concluiu essa linha temporal. Jogue novamente e escolha outras op\xE7\xF5es
-    para ver mais finais dessa historinha!"
-  linhasBa:
-  - "- Voc\xEA pode at\xE9 achar que eu estou maluca, mas eu vim do futuro - Falou
-    com medo."
-  - '- Como assim?? - Perguntou ainda sem entender o que estava se passando com a
-    namorada.'
-  - "- Bom, vou te contar tudo, desde o in\xEDcio\u2026 - Suspirou."
-  - '- Eu estava no meu quarto quando de repente abro o Instagram e dou de cara com
-    uma foto sua com a Carol se beijando.'
-  - "- Eu e a Carol?! Em que momento voc\xEA bateu a cabe\xE7a?? - Falou sem acreditar
-    no que estava ouvindo."
-  - "- Pode parecer estranho agora, mas se eu me mudar com meus pais, \xE9 isso que
-    vai acontecer daqui a uns 5 anos."
-  - "- Voc\xEA parece estar t\xE3o certa disso\u2026 Mas garanto que isso n\xE3o
-    vai acontecer, eu NUNCA ficaria com a Carol - Falou tentando acalmar a namorada,
-    acreditando que a mesma havia tido um pesadelo."
-  - "- Vai acontecer sim, Alice! Eu vou me mudar, n\xF3s vamos ficar cada dia mais
-    e mais distantes, daqui a 2 anos vamos terminar o namoro, ficaremos apenas amigas,
-    e em 4 anos nem vamos mais nos falar direito - Falou j\xE1 sem acreditar que
-    a Alice acreditaria."
-  - "- Hei! Relaxe! Eu n\xE3o vou deixar isso acontecer, e se isso for realmente
-    verdade, sei que voc\xEA tamb\xE9m n\xE3o. Afinal, por que voc\xEA voltaria no
-    tempo sem saber disso tudo? E\u2026 sendo verdade\u2026 Obrigada por ter voltado,
-    estar com a Carol deve ser horr\xEDvel..."
-  - "- Na verdade, voc\xEAs pareciam bem felizes\u2026 - Fala se perguntando se realmente
-    deveria tentar mudar o que aconteceu."
-  - 'Escolha:'
-  linhasBb:
-  - "- Ahmm\u2026 Nada, eu s\xF3 estava pensando alto\u2026 Do que est\xE1vamos falando
-    mesmo? - Disse tentando disfar\xE7ar e se recompor"
-  - "- Sobre a oportunidade de emprego que seu pai dever\xE1 conseguir em breve"
-  - "- Ah, sim, o que voc\xEA acha que vai acontecer com a gente?"
-  - "- Bom, eu acho que vamos sentir falta de estarmos realmente juntas, mas vamos
-    superar isso e daqui a 2 anos j\xE1 teremos como conseguir um est\xE1gio e quem
-    sabe d\xEA para morarmos juntas\u2026 - Fala esperan\xE7osa."
-  - "- E se eu aceitar aquela oferta de emprego que me ofereceram na livraria ap\xF3s
-    eu ter ajudado uma senhora a encontrar um livro para a neta? - Disse esperan\xE7osa."
-  - "- Seria legal\u2026 N\xE3o precisariamos nos afastar\u2026 Mas\u2026 E seus
-    pais? N\xE3o vai sentir falta deles?"
-  - "- Vou, claro, mas uma hora ou outra isso iria acontecer mesmo\u2026 N\xE3o \xE9
-    o curso natural da vida?."
-  - '- Verdade, mas tem certeza de que quer isso agora?.'
-  - "- Sim, no futuro qualquer coisa depois eu me mudo pra l\xE1 mesmo e volto a
-    morar com eles."
-  - "- Tudo bem ent\xE3o, mas \xE9 bom voc\xEA falar com eles primeiro."
-  - "Ap\xF3s fazerem todo o planejamento, pesquisando os pre\xE7os de tudo para garantir
-    que o sal\xE1rio daria para pagar todas as contas, Ayla volta para casa e conta
-    tudo aos seus pais."
-  - "Mesmo tristes por se separarem da sua \xFAnica filha, eles concordam, dando
-    apenas a condi\xE7\xE3o de que nos feriados prolongados e f\xE9rias eles se reuniriam
-    em um dos dois locais."
-  - "No dia seguinte, ela aceita o emprego e logo entra em contato com os donos de
-    um apartamento j\xE1 todo mobiliado que aceitam a oferta. Uma semana antes dos
-    pais se mudarem, ela j\xE1 come\xE7a a arrumar suas coisas em sua nova casa."
-  - "5 anos depois (no dia que ela havia voltado ao passado), Ayla e Alice estavam
-    morando juntas no apartamento pr\xF3prio delas."
-  - "Voc\xEA concluiu essa linha temporal. Jogue novamente e escolha outras op\xE7\xF5es
-    para ver mais finais dessa historinha!"
-  linhasBAa:
-  - "- Eu j\xE1 sei! Lembra de quando fomos na livraria aqui do bairro e me ofereceram
-    um emprego ap\xF3s eu ter ajudado uma senhora a encontrar um livro para a neta?
-    - Disse esperan\xE7osa."
-  - '- Claro que lembro! Isso foi ontem!'
-  - '- As duas riem ao recordar de como tudo aconteceu.'
-  - "- Ent\xE3o\u2026 Eu ainda n\xE3o recusei, disse apenas que iria pensar e me
-    deram at\xE9 sexta para dar a resposta. Se eu aceitar e conseguir um local para
-    ficar, n\xE3o preciso mudar de estado com meus pais\u2026 O que acha?"
-  - "- Hum\u2026 Mas e seus pais? N\xE3o vai sentir falta deles?"
-  - "- Vou, claro, mas uma hora ou outra isso iria acontecer mesmo\u2026 N\xE3o \xE9
-    o curso natural da vida?."
-  - '- Verdade, mas tem certeza de que quer isso agora?.'
-  - "- Sim, no futuro qualquer coisa depois eu me mudo pra l\xE1 mesmo e volto a
-    morar com eles."
-  - "- Tudo bem ent\xE3o, mas \xE9 bom voc\xEA falar com eles primeiro."
-  - "Ap\xF3s fazerem todo o planejamento, pesquisando os pre\xE7os de tudo para garantir
-    que o sal\xE1rio daria para pagar todas as contas, Ayla volta para casa e conta
-    tudo aos seus pais."
-  - "Mesmo tristes por se separarem da sua \xFAnica filha, eles concordam, dando
-    apenas a condi\xE7\xE3o de que nos feriados prolongados e f\xE9rias eles se reuniriam
-    em um dos dois locais."
-  - "No dia seguinte, ela aceita o emprego e logo entra em contato com os donos de
-    um apartamento j\xE1 todo mobiliado que aceitam a oferta. Uma semana antes dos
-    pais se mudarem, ela j\xE1 come\xE7a a arrumar suas coisas em sua nova casa."
-  - "5 anos depois (no dia que ela havia voltado ao passado), Ayla e Alice estavam
-    morando juntas no apartamento pr\xF3prio delas."
-  - "Voc\xEA concluiu essa linha temporal. Jogue novamente e escolha outras op\xE7\xF5es
-    para ver mais finais dessa historinha!"
-  linhasBAb:
-  - "- Desculpa se te assustei, isso foi s\xF3 um pesadelo que tive ontem a noite
-    - Mente imaginando que poderia ser o melhor para a Alice, afinal, as duas pareciam
-    felizes em todas as fotos."
-  - "- Eu imaginava que fosse, mas relaxe, como eu j\xE1 disse antes, isso n\xE3o
-    vai acontecer. J\xE1 estamos iniciando a faculdade, ent\xE3o daqui a 2 anos j\xE1
-    teremos como conseguir um est\xE1gio e quem sabe d\xEA para morarmos juntas\u2026
-    - Fala esperan\xE7osa."
-  - "- Sim\u2026"
-  - "Elas continuam conversando, a Ayla ainda fica um pouco triste em saber da verdade
-    mas aos poucos come\xE7a a pensar que tudo aquilo foi realmente apenas um sonho."
-  - "Durante todos os 5 anos, tudo acontece exatamente como antes, a Ayla se muda
-    de estado com seus pais, 2 anos depois elas se separam e 5 anos depois ela v\xEA
-    a mesma foto, s\xF3 que dessa vez ela fica feliz ao ver que sua ex namorada estava
-    bem, mesmo sendo com outra pessoa, e decide continuar guardando a foto para deixar
-    de recorda\xE7\xE3o."
-  - "Voc\xEA concluiu essa linha temporal. Jogue novamente e escolha outras op\xE7\xF5es
-    para ver mais finais dessa historinha!"
-  avancar: {fileID: 148185169}
-  voltar: {fileID: 651955085}
-  opcaoA: {fileID: 367494775}
-  opcaoB: {fileID: 1154013223}
-  opcaoBa: {fileID: 1298752144}
-  opcaoBb: {fileID: 1843465830}
-  opcaoBAa: {fileID: 781490805}
-  opcaoBAb: {fileID: 1097790973}
+  conteudo: {fileID: 1564188174}
+  cenarios: 
+  i: 0
+  num: 0
 --- !u!4 &1010772071
 Transform:
   m_ObjectHideFlags: 0
@@ -3750,6 +3580,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1010772072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010772069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 578af520709c2b44c8ac8db0d301dbfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ayla:
+  - {fileID: 338661508}
+  - {fileID: 910576158}
+  - {fileID: 1857651545}
+  Alice:
+  - {fileID: 1155336341}
+  - {fileID: 1674836927}
+  - {fileID: 36481551}
+  Cenarios:
+  - {fileID: 166708089}
+  - {fileID: 1281441237}
+  - {fileID: 1048914624}
+--- !u!114 &1010772073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010772069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75db15184cf453f41a2a3762b2826f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximo: {fileID: 148185169}
+  anterior: {fileID: 1860504323}
+  escolhas:
+  - {fileID: 367494775}
+  - {fileID: 1154013223}
+  - {fileID: 1298752144}
+  - {fileID: 1843465830}
+  - {fileID: 781490805}
+  - {fileID: 1097790973}
 --- !u!1 &1048914624
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,7 +3792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1097790972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3982,7 +3857,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010772070}
-        m_MethodName: Opcoes
+        m_MethodName: Escolhas
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4203,7 +4078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1154013222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4268,7 +4143,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010772070}
-        m_MethodName: Opcoes
+        m_MethodName: Escolhas
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4354,7 +4229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1155336342
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4826,9 +4701,10 @@ RectTransform:
   m_Children:
   - {fileID: 332377140}
   - {fileID: 23594357}
-  - {fileID: 148185168}
-  - {fileID: 651955084}
   - {fileID: 1627744730}
+  - {fileID: 148185168}
+  - {fileID: 1860504322}
+  - {fileID: 810771356}
   m_Father: {fileID: 2129756967}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4855,7 +4731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1298752143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4920,7 +4796,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010772070}
-        m_MethodName: Opcoes
+        m_MethodName: Escolhas
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5444,7 +5320,7 @@ RectTransform:
   - {fileID: 781490804}
   - {fileID: 1097790972}
   m_Father: {fileID: 1298121668}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5578,6 +5454,162 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1647981108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1647981109}
+  - component: {fileID: 1647981111}
+  - component: {fileID: 1647981110}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1647981109
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647981108}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1860504322}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.8499985, y: 5.1200027}
+  m_SizeDelta: {x: -42.29164, y: -35.72229}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1647981110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647981108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Ant
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: c683865259fffdf40aa23755215b819a, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: c683865259fffdf40aa23755215b819a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 50
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 30
+  m_fontSizeMax: 50
+  m_fontStyle: 2
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1647981110}
+    characterCount: 3
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1647981111
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647981108}
+  m_CullTransparentMesh: 0
 --- !u!1 &1674836927
 GameObject:
   m_ObjectHideFlags: 0
@@ -5595,7 +5627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1674836928
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6170,7 +6202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1843465829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6235,7 +6267,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010772070}
-        m_MethodName: Opcoes
+        m_MethodName: Escolhas
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6299,7 +6331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1857651546
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6355,6 +6387,136 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857651545}
+  m_CullTransparentMesh: 0
+--- !u!1 &1860504321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1860504322}
+  - component: {fileID: 1860504325}
+  - component: {fileID: 1860504324}
+  - component: {fileID: 1860504323}
+  m_Layer: 5
+  m_Name: Button Ant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1860504322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860504321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1647981109}
+  m_Father: {fileID: 1298121668}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 338.00003, y: 25}
+  m_SizeDelta: {x: 180, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1860504323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860504321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1860504324}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1010772070}
+        m_MethodName: Anterior
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1860504324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860504321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 02324993e933048458ec4366fab70006, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1860504325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860504321}
   m_CullTransparentMesh: 0
 --- !u!1 &1927095137
 GameObject:

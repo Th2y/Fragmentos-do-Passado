@@ -11,13 +11,11 @@ public class BotoesEmJogo : MonoBehaviour
     public Button proximo;
     public Button anterior;
     public Button[] escolhas;
-    public Button iniciar;
 
     void Awake()
     {
         instancia = this;
 
-        iniciar.gameObject.SetActive(true);
         proximo.gameObject.SetActive(false);
         anterior.gameObject.SetActive(false);
 
