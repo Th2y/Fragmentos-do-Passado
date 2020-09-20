@@ -83,6 +83,7 @@ public class LerDialogo : MonoBehaviour
             }
             else if (i == 1)
             {
+                Handheld.Vibrate();
                 voltar.interactable = true;
                 cenarios = "QuartoAyla";
                 personagensPoses = "AylaPadrao";

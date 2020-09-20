@@ -265,8 +265,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/thaya/Desktop/Unity/Jogo dos animais/AnimaisGata/Thay.keystore
-  AndroidKeyaliasName: fragmentos
+  AndroidKeystoreName: C:/Users/thaya/Desktop/GitHub/MundoDaMariana/Jogo dos animais/AnimaisGata/Thay.keystore
+  AndroidKeyaliasName: fragmentosdopassado
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1

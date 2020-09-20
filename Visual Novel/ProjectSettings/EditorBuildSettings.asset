@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/Menu.unity
     guid: a4f192d22b5e70d4c8b61bd19bb5b7dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Resources/Scenes/JogoNovo.unity
     guid: b94a9f3e8ec8c284f996bb6013bd0334
+  - enabled: 1
+    path: Assets/Resources/Scenes/Jogo.unity
+    guid: 8092b3de8190b09479340947c35787db
   m_configObjects: {}
