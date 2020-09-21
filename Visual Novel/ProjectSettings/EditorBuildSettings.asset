@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Resources/Scenes/Termo.unity
     guid: 6f2e10ee6ef95294a8c948c59ea88bd8
   - enabled: 1

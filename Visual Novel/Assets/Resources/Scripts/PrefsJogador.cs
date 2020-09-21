@@ -20,4 +20,9 @@ public class PrefsJogador : MonoBehaviour
         PlayerPrefs.DeleteKey("EscolhaBAa");
         PlayerPrefs.DeleteKey("EscolhaBAb");
     }
+
+    public void Termo()
+    {
+        PlayerPrefs.SetString("Termo", "Sim");
+    }
 }

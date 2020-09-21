@@ -7,9 +7,15 @@ using UnityEngine.UI;
 public class BotaoCena : MonoBehaviour
 {
     public GameObject painel;
+    public GameObject painelTermo;
 
     void Start()
     {
+        if (PlayerPrefs.GetString("Termo") != "Sim")
+            painelTermo.SetActive(true);
+        else
+            painelTermo.SetActive(false);
+
         painel.SetActive(false);
     }
 
