@@ -1107,7 +1107,6 @@ GameObject:
   - component: {fileID: 729712211}
   - component: {fileID: 729712210}
   - component: {fileID: 729712209}
-  - component: {fileID: 729712213}
   m_Layer: 5
   m_Name: ButtonItchWeb
   m_TagString: Untagged
@@ -1226,18 +1225,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729712207}
   m_CullTransparentMesh: 0
---- !u!114 &729712213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729712207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 386e9868028da0349b9bfa4a3f48f1fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &861965538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,7 +1639,6 @@ GameObject:
   - component: {fileID: 1064632876}
   - component: {fileID: 1064632875}
   - component: {fileID: 1064632874}
-  - component: {fileID: 1064632878}
   m_Layer: 5
   m_Name: ButtonInstagramWeb
   m_TagString: Untagged
@@ -1771,18 +1757,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064632872}
   m_CullTransparentMesh: 0
---- !u!114 &1064632878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064632872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 386e9868028da0349b9bfa4a3f48f1fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1095745438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,7 +1770,6 @@ GameObject:
   - component: {fileID: 1095745442}
   - component: {fileID: 1095745441}
   - component: {fileID: 1095745440}
-  - component: {fileID: 1095745444}
   m_Layer: 5
   m_Name: ButtonItchWeb
   m_TagString: Untagged
@@ -1915,18 +1888,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095745438}
   m_CullTransparentMesh: 0
---- !u!114 &1095745444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095745438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 386e9868028da0349b9bfa4a3f48f1fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1309673822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +1901,6 @@ GameObject:
   - component: {fileID: 1309673826}
   - component: {fileID: 1309673825}
   - component: {fileID: 1309673824}
-  - component: {fileID: 1309673828}
   m_Layer: 5
   m_Name: ButtonInstagramWeb
   m_TagString: Untagged
@@ -2059,18 +2019,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309673822}
   m_CullTransparentMesh: 0
---- !u!114 &1309673828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309673822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 386e9868028da0349b9bfa4a3f48f1fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1368568696
 GameObject:
   m_ObjectHideFlags: 0

@@ -2517,7 +2517,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1010772071}
   - component: {fileID: 1010772070}
-  - component: {fileID: 1010772072}
   - component: {fileID: 1010772073}
   m_Layer: 0
   m_Name: Scripts
@@ -2538,6 +2537,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ea4e0ec97a55040a900301bd187cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ayla:
+  - {fileID: 338661508}
+  - {fileID: 910576158}
+  - {fileID: 1857651545}
+  Alice:
+  - {fileID: 1155336341}
+  - {fileID: 1674836927}
+  - {fileID: 36481551}
+  Cenarios:
+  - {fileID: 166708089}
+  - {fileID: 1281441237}
+  - {fileID: 1048914624}
   linhasIniciais: []
   linhasA: []
   linhasB: []
@@ -2564,30 +2575,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1010772072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010772069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578af520709c2b44c8ac8db0d301dbfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ayla:
-  - {fileID: 338661508}
-  - {fileID: 910576158}
-  - {fileID: 1857651545}
-  Alice:
-  - {fileID: 1155336341}
-  - {fileID: 1674836927}
-  - {fileID: 36481551}
-  Cenarios:
-  - {fileID: 166708089}
-  - {fileID: 1281441237}
-  - {fileID: 1048914624}
 --- !u!114 &1010772073
 MonoBehaviour:
   m_ObjectHideFlags: 0

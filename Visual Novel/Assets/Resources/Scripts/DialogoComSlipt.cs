@@ -6,6 +6,10 @@ using System.IO;
 
 public class DialogoComSlipt : MonoBehaviour
 {
+    public GameObject[] Ayla;
+    public GameObject[] Alice;
+    public GameObject[] Cenarios;
+
     public string[] linhasIniciais;
     string[] linhasIniciaisSplit;
     List<string> listaLinhasIniciaisPersonagem = new List<string>();
@@ -52,10 +56,132 @@ public class DialogoComSlipt : MonoBehaviour
     public TextMeshProUGUI conteudo;
     public string cenarios;
 
-    public int i = 0, num = 1;
+    public int num = 1;
     private bool[] opcoes = new bool[6];
 
     public static DialogoComSlipt instancia;
+
+    public void PosicoesPersonagens()
+    {
+        //Narrador
+        if (personagem.text == "Narrador" || personagem.text == "")
+        {
+            personagem.text = "Narrador";
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+        }
+        else if (personagem.text == "AparecerAsDuas")
+        {
+            personagem.text = "Narrador";
+            Ayla[0].SetActive(true);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+            Alice[0].SetActive(true);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+        }
+
+        //Ayla
+        else if (personagem.text == "AylaPadrao")
+        {
+            personagem.text = "Ayla";
+            Ayla[0].SetActive(true);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+        }
+        else if (personagem.text == "AylaIrritada")
+        {
+            personagem.text = "Ayla";
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(true);
+            Ayla[0].SetActive(false);
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+        }
+        else if (personagem.text == "AylaTriste")
+        {
+            personagem.text = "Ayla";
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(true);
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+        }
+
+        //Alice
+        else if (personagem.text == "AlicePadrao")
+        {
+            personagem.text = "Alice";
+            Alice[0].SetActive(true);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+        }
+        else if (personagem.text == "AliceIrritada")
+        {
+            personagem.text = "Alice";
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(true);
+            Alice[0].SetActive(false);
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+        }
+        else if (personagem.text == "AliceTriste")
+        {
+            personagem.text = "Alice";
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(true);
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+        }
+    }
+
+    public void MudarCenarios()
+    {
+        if (cenarios == "")
+        {
+            Cenarios[0].SetActive(true);
+            Cenarios[1].SetActive(false);
+            Cenarios[2].SetActive(false);
+        }
+        else if (cenarios == "QuartoAyla")
+        {
+            Cenarios[0].SetActive(false);
+            Cenarios[1].SetActive(true);
+            Cenarios[2].SetActive(false);
+        }
+        else if (cenarios == "QuartoAlice")
+        {
+            Cenarios[0].SetActive(false);
+            Cenarios[1].SetActive(false);
+            Cenarios[2].SetActive(true);
+        }
+    }
+
+    private void Awake()
+    {
+        linhasIniciais = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\Conversa.txt");
+        linhasA = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoA.txt");
+        linhasB = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoB.txt");
+        linhasBa = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBa.txt");
+        linhasBb = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBb.txt");
+        linhasBAa = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBAa.txt");
+        linhasBAb = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBAb.txt");
+    }
 
     private void Start()
     {
@@ -65,7 +191,6 @@ public class DialogoComSlipt : MonoBehaviour
             opcoes[i] = false;
         }
 
-        linhasIniciais = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\Conversa.txt");
         for (int i = 0; i < linhasIniciais.Length; i++)
         {
             linhasIniciaisSplit = linhasIniciais[i].Split("_"[0]);
@@ -74,7 +199,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasIniciaisFala.Add(linhasIniciaisSplit[2]);
         }
 
-        linhasA = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoA.txt");
         for (int i = 0; i < linhasA.Length; i++)
         {
             linhasASplit = linhasA[i].Split("_"[0]);
@@ -83,7 +207,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasAFala.Add(linhasASplit[2]);
         }
 
-        linhasB = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoB.txt");
         for (int i = 0; i < linhasB.Length; i++)
         {
             linhasBSplit = linhasB[i].Split("_"[0]);
@@ -92,7 +215,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBFala.Add(linhasBSplit[2]);
         }
 
-        linhasBa = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBa.txt");
         for (int i = 0; i < linhasBa.Length; i++)
         {
             linhasBaSplit = linhasBa[i].Split("_"[0]);
@@ -101,7 +223,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBaFala.Add(linhasBaSplit[2]);
         }
 
-        linhasBb = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBb.txt");
         for (int i = 0; i < linhasBb.Length; i++)
         {
             linhasBbSplit = linhasBb[i].Split("_"[0]);
@@ -110,7 +231,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBbFala.Add(linhasBbSplit[2]);
         }
 
-        linhasBAa = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBAa.txt");
         for (int i = 0; i < linhasBAa.Length; i++)
         {
             linhasBAaSplit = linhasBAa[i].Split("_"[0]);
@@ -119,7 +239,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBAaFala.Add(linhasBAaSplit[2]);
         }
 
-        linhasBAb = File.ReadAllLines("Assets\\Resources\\Dialogos\\Formatados\\OpcaoBAb.txt");
         for (int i = 0; i < linhasBAb.Length; i++)
         {
             linhasBAbSplit = linhasBAb[i].Split("_"[0]);
@@ -128,8 +247,16 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBAbFala.Add(linhasBAbSplit[2]);
         }
 
+        if (PlayerPrefs.GetString("EscolhaA") != "A" && PlayerPrefs.GetString("EscolhaB") != "B" && PlayerPrefs.GetString("EscolhaBa") != "Ba" && PlayerPrefs.GetString("EscolhaBb") != "Bb" && PlayerPrefs.GetString("EscolhaBAa") != "BAa" && PlayerPrefs.GetString("EscolhaBAb") != "BAb")
+        {
+            Debug.Log("Nenhuma");
+            opcoes[0] = true;
+            BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+            personagem.text = listaLinhasIniciaisPersonagem[0];
+            Ler();
+        }
 
-        if (PlayerPrefs.GetString("EscolhaBAb") == "BAb")
+        else if (PlayerPrefs.GetString("EscolhaBAb") == "BAb")
         {
             Debug.Log("BAb");
             opcoes[6] = true;
@@ -171,14 +298,6 @@ public class DialogoComSlipt : MonoBehaviour
             BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
             Ler();
         }
-        else
-        {
-            Debug.Log("Nenhuma");
-            opcoes[0] = true;
-            BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
-            personagem.text = listaLinhasIniciaisPersonagem[0];
-            Ler();
-        }
     }
 
     public void Ler()
@@ -186,7 +305,7 @@ public class DialogoComSlipt : MonoBehaviour
         //Inicial
         if(opcoes[0])
         {
-            for (i = num; i < linhasIniciais.Length; i++)
+            for (int i = num; i < linhasIniciais.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -196,8 +315,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasIniciaisPersonagem[i];
                 conteudo.text = listaLinhasIniciaisFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasIniciais.Length - 1)
                 {
                     BotoesEmJogo.instancia.escolhas[0].gameObject.SetActive(true);
@@ -214,7 +333,7 @@ public class DialogoComSlipt : MonoBehaviour
         //Escolha A/B
         else if (opcoes[1])
         {
-            for (i = num; i < linhasA.Length; i++)
+            for (int i = num; i < linhasA.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -224,8 +343,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasAPersonagem[i];
                 conteudo.text = listaLinhasAFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasA.Length - 1)
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
@@ -238,7 +357,7 @@ public class DialogoComSlipt : MonoBehaviour
 
         else if (opcoes[2])
         {
-            for (i = num; i < linhasB.Length; i++)
+            for (int i = num; i < linhasB.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -248,8 +367,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasBPersonagem[i];
                 conteudo.text = listaLinhasBFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasB.Length - 1)
                 {
                     BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(true);
@@ -266,7 +385,7 @@ public class DialogoComSlipt : MonoBehaviour
         //Escolha Ba/Bb
         else if (opcoes[3])
         {
-            for (i = num; i < linhasBa.Length; i++)
+            for (int i = num; i < linhasBa.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -276,8 +395,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasBaPersonagem[i];
                 conteudo.text = listaLinhasBaFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasBa.Length - 1)
                 {
                     BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(true);
@@ -293,7 +412,7 @@ public class DialogoComSlipt : MonoBehaviour
 
         else if (opcoes[4])
         {
-            for (i = num; i < linhasBb.Length; i++)
+            for (int i = num; i < linhasBb.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -303,8 +422,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasBbPersonagem[i];
                 conteudo.text = listaLinhasBbFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasBb.Length - 1)
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
@@ -318,7 +437,7 @@ public class DialogoComSlipt : MonoBehaviour
         //Escolha BAa/BAb
         else if (opcoes[5])
         {
-            for (i = num; i < linhasBAa.Length; i++)
+            for (int i = num; i < linhasBAa.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -328,8 +447,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasBAaPersonagem[i];
                 conteudo.text = listaLinhasBAaFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasBAa.Length - 1)
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
@@ -342,7 +461,7 @@ public class DialogoComSlipt : MonoBehaviour
 
         else if (opcoes[6])
         {
-            for (i = num; i < linhasBAb.Length; i++)
+            for (int i = num; i < linhasBAb.Length;)
             {
                 if (i >= 1)
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
@@ -352,8 +471,8 @@ public class DialogoComSlipt : MonoBehaviour
                 personagem.text = listaLinhasBAbPersonagem[i];
                 conteudo.text = listaLinhasBAbFala[i];
 
-                Imagens.instancia.PosicoesPersonagens();
-                Imagens.instancia.MudarCenarios();
+                PosicoesPersonagens();
+                MudarCenarios();
                 if (i >= linhasBAb.Length - 1)
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
