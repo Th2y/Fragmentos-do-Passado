@@ -13,12 +13,7 @@ public class PrefsJogador : MonoBehaviour
 
     public void CarregarNovoJogo()
     {
-        PlayerPrefs.DeleteKey("EscolhaA");
-        PlayerPrefs.DeleteKey("EscolhaB");
-        PlayerPrefs.DeleteKey("EscolhaBa");
-        PlayerPrefs.DeleteKey("EscolhaBb");
-        PlayerPrefs.DeleteKey("EscolhaBAa");
-        PlayerPrefs.DeleteKey("EscolhaBAb");
+        PlayerPrefs.DeleteKey("Escolha");
     }
 
     public void Termo()

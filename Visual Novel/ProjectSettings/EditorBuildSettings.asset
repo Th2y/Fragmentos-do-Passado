@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Resources/Scenes/Termo.unity
-    guid: 6f2e10ee6ef95294a8c948c59ea88bd8
   - enabled: 1
     path: Assets/Resources/Scenes/Menu.unity
     guid: a4f192d22b5e70d4c8b61bd19bb5b7dc
+  - enabled: 1
+    path: Assets/Resources/Scenes/Carregamento.unity
+    guid: d3fe8d513713c5b459b7b5c477e025b2
   - enabled: 1
     path: Assets/Resources/Scenes/Jogo.unity
     guid: 376e21cad4abb6540ae7af8cfc9dbf7d

@@ -27,7 +27,10 @@ public class BotaoCena : MonoBehaviour
     public void CarregarCena(string opcoes)
     {
         if (opcoes == "ButtonCena1")
-            SceneManager.LoadScene("Jogo");
+        {
+            SceneManager.LoadScene("Carregamento");
+            Carregamento.cenaACarregar = "Jogo";
+        }
         if (opcoes == "ButtonCreditos")
             painel.SetActive(true);
     }
