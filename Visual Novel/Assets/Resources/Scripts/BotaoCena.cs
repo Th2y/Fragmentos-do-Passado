@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class BotaoCena : MonoBehaviour
 {
-    public GameObject painel;
     public GameObject painelTermo;
+    public GameObject[] painelIdiomaCerto;
 
     void Start()
     {
@@ -16,12 +16,34 @@ public class BotaoCena : MonoBehaviour
         else
             painelTermo.SetActive(false);
 
-        painel.SetActive(false);
+        if (PlayerPrefs.GetString("Idioma") == "Port")
+        {
+            painelIdiomaCerto[0].SetActive(true);
+            painelIdiomaCerto[1].SetActive(false);
+        }
+        else if (PlayerPrefs.GetString("Idioma") == "Esp")
+        {
+            painelIdiomaCerto[0].SetActive(false);
+            painelIdiomaCerto[1].SetActive(true);
+        }
     }
 
     void Update()
     {
-        
+        if(PrefsJogador.instancia.mudou)
+        {
+            if (PlayerPrefs.GetString("Idioma") == "Port")
+            {
+                painelIdiomaCerto[0].SetActive(true);
+                painelIdiomaCerto[1].SetActive(false);
+            }
+            else if (PlayerPrefs.GetString("Idioma") == "Esp")
+            {
+                painelIdiomaCerto[0].SetActive(false);
+                painelIdiomaCerto[1].SetActive(true);
+            }
+            PrefsJogador.instancia.mudou = false;
+        }
     }
 
     public void CarregarCena(string opcoes)
@@ -31,7 +53,5 @@ public class BotaoCena : MonoBehaviour
             SceneManager.LoadScene("Carregamento");
             Carregamento.cenaACarregar = "Jogo";
         }
-        if (opcoes == "ButtonCreditos")
-            painel.SetActive(true);
     }
 }
