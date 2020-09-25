@@ -2550,17 +2550,11 @@ MonoBehaviour:
   - {fileID: 1281441237}
   - {fileID: 1048914624}
   linhasIniciais: []
-  listaLinhasIniciaisPersonagem: []
   linhasA: []
-  listaLinhasAPersonagem: []
   linhasB: []
-  listaLinhasBPersonagem: []
   linhasBa: []
-  listaLinhasBaPersonagem: []
   linhasBb: []
-  listaLinhasBbPersonagem: []
   linhasBAa: []
-  listaLinhasBAaPersonagem: []
   linhasBAb: []
   personagem: {fileID: 1204281695}
   conteudo: {fileID: 1564188174}
@@ -4005,9 +3999,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "O jogo n\xE3o foi carregado corretamente. \n\nPor favor, entre em contato
-    conosco e informe que o jogo n\xE3o est\xE1 carregando as falas. Agradecemos
-    pela sua paci\xEAncia e espera."
+  m_text: "O jogo n\xE3o foi carregado corretamente. \n\nTente reiniciar o jogo e,
+    caso o problema persista, por favor, entre em contato conosco e informe que o
+    jogo n\xE3o est\xE1 carregando as falas. \n\nAgradecemos pela sua compreens\xE3o."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4035,7 +4029,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 60
+  m_fontSize: 57.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4076,12 +4070,12 @@ MonoBehaviour:
   m_margin: {x: -0.8422049, y: 0.4666212, z: -1.5207253, w: 2.8987887}
   m_textInfo:
     textComponent: {fileID: 1564188174}
-    characterCount: 168
+    characterCount: 215
     spriteCount: 0
-    spaceCount: 29
-    wordCount: 28
+    spaceCount: 38
+    wordCount: 35
     linkCount: 0
-    lineCount: 4
+    lineCount: 6
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
