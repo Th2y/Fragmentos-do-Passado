@@ -10,43 +10,70 @@ public class DialogoComSlipt : MonoBehaviour
     public GameObject[] Alice;
     public GameObject[] Cenarios;
 
-    public string[] linhasIniciais;
+    string[] linhasIniciais;
     string[] linhasIniciaisSplit;
     List<string> listaLinhasIniciaisPersonagem = new List<string>();
     List<string> listaLinhasIniciaisFala = new List<string>();
     List<string> listaLinhasIniciaisCenario = new List<string>();
 
-    public string[] linhasA;
+    string[] linhasA;
     string[] linhasASplit;
     List<string> listaLinhasAPersonagem = new List<string>();
     List<string> listaLinhasAFala = new List<string>();
     List<string> listaLinhasACenario = new List<string>();
 
-    public string[] linhasB;
+    string[] linhasB;
     string[] linhasBSplit;
     List<string> listaLinhasBPersonagem = new List<string>();
     List<string> listaLinhasBFala = new List<string>();
     List<string> listaLinhasBCenario = new List<string>();
 
-    public string[] linhasBa;
+
+    string[] linhasAa;
+    string[] linhasAaSplit;
+    List<string> listaLinhasAaPersonagem = new List<string>();
+    List<string> listaLinhasAaFala = new List<string>();
+    List<string> listaLinhasAaCenario = new List<string>();
+
+    string[] linhasAb;
+    string[] linhasAbSplit;
+    List<string> listaLinhasAbPersonagem = new List<string>();
+    List<string> listaLinhasAbFala = new List<string>();
+    List<string> listaLinhasAbCenario = new List<string>();
+
+    string[] linhasBa;
     string[] linhasBaSplit;
     List<string> listaLinhasBaPersonagem = new List<string>();
     List<string> listaLinhasBaFala = new List<string>();
     List<string> listaLinhasBaCenario = new List<string>();
 
-    public string[] linhasBb;
+    string[] linhasBb;
     string[] linhasBbSplit;
     List<string> listaLinhasBbPersonagem = new List<string>();
     List<string> listaLinhasBbFala = new List<string>();
     List<string> listaLinhasBbCenario = new List<string>();
 
-    public string[] linhasBAa;
+
+    string[] linhasAAa;
+    string[] linhasAAaSplit;
+    List<string> listaLinhasAAaPersonagem = new List<string>();
+    List<string> listaLinhasAAaFala = new List<string>();
+    List<string> listaLinhasAAaCenario = new List<string>();
+
+    string[] linhasAAb;
+    string[] linhasAAbSplit;
+    List<string> listaLinhasAAbPersonagem = new List<string>();
+    List<string> listaLinhasAAbFala = new List<string>();
+    List<string> listaLinhasAAbCenario = new List<string>();
+
+
+    string[] linhasBAa;
     string[] linhasBAaSplit;
     List<string> listaLinhasBAaPersonagem = new List<string>();
     List<string> listaLinhasBAaFala = new List<string>();
     List<string> listaLinhasBAaCenario = new List<string>();
 
-    public string[] linhasBAb;
+    string[] linhasBAb;
     string[] linhasBAbSplit;
     List<string> listaLinhasBAbPersonagem = new List<string>();
     List<string> listaLinhasBAbFala = new List<string>();
@@ -63,27 +90,65 @@ public class DialogoComSlipt : MonoBehaviour
 
     public void Awake()
     {
-        TextAsset textoInicial = (TextAsset)Resources.Load("Dialogos/Formatados/Conversa");
-        linhasIniciais = textoInicial.text.Split('\n');
+        if (PlayerPrefs.GetString("Idioma") == "Port")
+        {
+            TextAsset textoInicial = (TextAsset)Resources.Load("Dialogos/Port/Inicio");
+            linhasIniciais = textoInicial.text.Split('\n');
+            Debug.Log(textoInicial);
 
-        TextAsset textoA = (TextAsset)Resources.Load("Dialogos/Formatados/OpcaoA");
-        linhasA = textoA.text.Split('\n');
+            TextAsset textoA = (TextAsset)Resources.Load("Dialogos/Port/OpcaoA");
+            linhasA = textoA.text.Split('\n');
+            TextAsset textoB = (TextAsset)Resources.Load("Dialogos/Port/OpcaoB");
+            linhasB = textoB.text.Split('\n');
 
-        TextAsset textoB = (TextAsset)Resources.Load("Dialogos/Formatados/OpcaoB");
-        linhasB = textoB.text.Split('\n');
+            TextAsset textoAa = (TextAsset)Resources.Load("Dialogos/Port/OpcaoAa");
+            linhasAa = textoAa.text.Split('\n');
+            TextAsset textoAb = (TextAsset)Resources.Load("Dialogos/Port/OpcaoAb");
+            linhasAb = textoAb.text.Split('\n');
+            TextAsset textoBa = (TextAsset)Resources.Load("Dialogos/Port/OpcaoBa");
+            linhasBa = textoBa.text.Split('\n');
+            TextAsset textoBb = (TextAsset)Resources.Load("Dialogos/Port/OpcaoBb");
+            linhasBb = textoBb.text.Split('\n');
 
-        TextAsset textoBa = (TextAsset)Resources.Load("Dialogos/Formatados/OpcaoBa");
-        linhasBa = textoBa.text.Split('\n');
+            TextAsset textoAAa = (TextAsset)Resources.Load("Dialogos/Port/OpcaoAAa");
+            linhasAAa = textoAAa.text.Split('\n');
+            TextAsset textoAAb = (TextAsset)Resources.Load("Dialogos/Port/OpcaoAAb");
+            linhasAAb = textoAAb.text.Split('\n');
+            TextAsset textoBAa = (TextAsset)Resources.Load("Dialogos/Port/OpcaoBAa");
+            linhasBAa = textoBAa.text.Split('\n');
+            TextAsset textoBAb = (TextAsset)Resources.Load("Dialogos/Port/OpcaoBAb");
+            linhasBAb = textoBAb.text.Split('\n');
+        }
 
-        TextAsset textoBb = (TextAsset)Resources.Load("Dialogos/Formatados/OpcaoBb");
-        linhasBb = textoBb.text.Split('\n');
+        else if (PlayerPrefs.GetString("Idioma") == "Esp")
+        {
+            TextAsset textoInicial = (TextAsset)Resources.Load("Dialogos/Esp/Inicio");
+            linhasIniciais = textoInicial.text.Split('\n');
+            Debug.Log(textoInicial);
 
-        TextAsset textoBAa = (TextAsset)Resources.Load("Dialogos/Formatados/OpcaoBAa");
-        linhasBAa = textoBAa.text.Split('\n');
+            TextAsset textoA = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoA");
+            linhasA = textoA.text.Split('\n');
+            TextAsset textoB = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoB");
+            linhasB = textoB.text.Split('\n');
 
-        TextAsset textoBAb = (TextAsset)Resources.Load("Dialogos/Formatados/OpcaoBAb");
-        linhasBAb = textoBAb.text.Split('\n');
+            TextAsset textoAa = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoAa");
+            linhasAa = textoAa.text.Split('\n');
+            TextAsset textoAb = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoAb");
+            linhasAb = textoAb.text.Split('\n');
+            TextAsset textoBa = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoBa");
+            linhasBa = textoBa.text.Split('\n');
+            TextAsset textoBb = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoBb");
+            linhasBb = textoBb.text.Split('\n');
 
+            TextAsset textoAAa = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoAAa");
+            linhasAAa = textoAAa.text.Split('\n');
+            TextAsset textoAAb = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoAAb");
+            linhasAAb = textoAAb.text.Split('\n');
+            TextAsset textoBAa = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoBAa");
+            linhasBAa = textoBAa.text.Split('\n');
+            TextAsset textoBAb = (TextAsset)Resources.Load("Dialogos/Esp/OpcaoBAb");
+            linhasBAb = textoBAb.text.Split('\n');
+        }
 
         for (int i = 0; i < linhasIniciais.Length; i++)
         {
@@ -100,7 +165,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasAPersonagem.Add(linhasASplit[1]);
             listaLinhasAFala.Add(linhasASplit[2]);
         }
-
         for (int i = 0; i < linhasB.Length; i++)
         {
             linhasBSplit = linhasB[i].Split("_"[0]);
@@ -109,6 +173,20 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBFala.Add(linhasBSplit[2]);
         }
 
+        for (int i = 0; i < linhasAa.Length; i++)
+        {
+            linhasAaSplit = linhasAa[i].Split("_"[0]);
+            listaLinhasAaCenario.Add(linhasAaSplit[0]);
+            listaLinhasAaPersonagem.Add(linhasAaSplit[1]);
+            listaLinhasAaFala.Add(linhasAaSplit[2]);
+        }
+        for (int i = 0; i < linhasAb.Length; i++)
+        {
+            linhasAbSplit = linhasAb[i].Split("_"[0]);
+            listaLinhasAbCenario.Add(linhasAbSplit[0]);
+            listaLinhasAbPersonagem.Add(linhasAbSplit[1]);
+            listaLinhasAbFala.Add(linhasAbSplit[2]);
+        }
         for (int i = 0; i < linhasBa.Length; i++)
         {
             linhasBaSplit = linhasBa[i].Split("_"[0]);
@@ -116,7 +194,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBaPersonagem.Add(linhasBaSplit[1]);
             listaLinhasBaFala.Add(linhasBaSplit[2]);
         }
-
         for (int i = 0; i < linhasBb.Length; i++)
         {
             linhasBbSplit = linhasBb[i].Split("_"[0]);
@@ -125,6 +202,20 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBbFala.Add(linhasBbSplit[2]);
         }
 
+        for (int i = 0; i < linhasAAa.Length; i++)
+        {
+            linhasAAaSplit = linhasAAa[i].Split("_"[0]);
+            listaLinhasAAaCenario.Add(linhasAAaSplit[0]);
+            listaLinhasAAaPersonagem.Add(linhasAAaSplit[1]);
+            listaLinhasAAaFala.Add(linhasAAaSplit[2]);
+        }
+        for (int i = 0; i < linhasAAb.Length; i++)
+        {
+            linhasAAbSplit = linhasAAb[i].Split("_"[0]);
+            listaLinhasAAbCenario.Add(linhasAAbSplit[0]);
+            listaLinhasAAbPersonagem.Add(linhasAAbSplit[1]);
+            listaLinhasAAbFala.Add(linhasAAbSplit[2]);
+        }
         for (int i = 0; i < linhasBAa.Length; i++)
         {
             linhasBAaSplit = linhasBAa[i].Split("_"[0]);
@@ -132,7 +223,6 @@ public class DialogoComSlipt : MonoBehaviour
             listaLinhasBAaPersonagem.Add(linhasBAaSplit[1]);
             listaLinhasBAaFala.Add(linhasBAaSplit[2]);
         }
-
         for (int i = 0; i < linhasBAb.Length; i++)
         {
             linhasBAbSplit = linhasBAb[i].Split("_"[0]);
@@ -155,23 +245,47 @@ public class DialogoComSlipt : MonoBehaviour
         }
         else if (PlayerPrefs.GetString("Escolha") == "BAb")
         {
-            opcoes[6] = true;
+            opcoes[10] = true;
             BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
             Ler();
         }
         else if (PlayerPrefs.GetString("Escolha") == "BAa")
         {
-            opcoes[5] = true;
+            opcoes[9] = true;
+            BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+            Ler();
+        }
+        else if (PlayerPrefs.GetString("Escolha") == "AAb")
+        {
+            opcoes[8] = true;
+            BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+            Ler();
+        }
+        else if (PlayerPrefs.GetString("Escolha") == "AAa")
+        {
+            opcoes[7] = true;
             BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
             Ler();
         }
         else if (PlayerPrefs.GetString("Escolha") == "Bb")
         {
-            opcoes[4] = true;
+            opcoes[6] = true;
             BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
             Ler();
         }
         else if (PlayerPrefs.GetString("Escolha") == "Ba")
+        {
+            opcoes[5] = true;
+            BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+            Ler();
+        }
+        else if (PlayerPrefs.GetString("Escolha") == "Ab")
+        {
+            opcoes[4] = true;
+            BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+            Ler();
+        }
+        else if (PlayerPrefs.GetString("Escolha") == "Aa")
         {
             opcoes[3] = true;
             BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
@@ -205,16 +319,6 @@ public class DialogoComSlipt : MonoBehaviour
             Ayla[1].SetActive(false);
             Ayla[2].SetActive(false);
             Alice[0].SetActive(false);
-            Alice[1].SetActive(false);
-            Alice[2].SetActive(false);
-        }
-        else if (personagem.text == "AparecerAsDuas")
-        {
-            personagem.text = "Narrador";
-            Ayla[0].SetActive(true);
-            Ayla[1].SetActive(false);
-            Ayla[2].SetActive(false);
-            Alice[0].SetActive(true);
             Alice[1].SetActive(false);
             Alice[2].SetActive(false);
         }
@@ -278,6 +382,38 @@ public class DialogoComSlipt : MonoBehaviour
             Alice[0].SetActive(false);
             Alice[1].SetActive(false);
             Alice[2].SetActive(true);
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+        }
+
+        //Fernando
+        else if (personagem.text == "FernandoNormal")
+        {
+            personagem.text = "Fernando";
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+        }
+        else if (personagem.text == "FernandoIrritado")
+        {
+            personagem.text = "Fernando";
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[0].SetActive(false);
+            Ayla[0].SetActive(false);
+            Ayla[1].SetActive(false);
+            Ayla[2].SetActive(false);
+        }
+        else if (personagem.text == "FernandoTriste")
+        {
+            personagem.text = "Fernando";
+            Alice[0].SetActive(false);
+            Alice[1].SetActive(false);
+            Alice[2].SetActive(false);
             Ayla[0].SetActive(false);
             Ayla[1].SetActive(false);
             Ayla[2].SetActive(false);
@@ -353,6 +489,8 @@ public class DialogoComSlipt : MonoBehaviour
                 MudarCenarios();
                 if (i >= linhasA.Length - 1)
                 {
+                    BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.escolhas[3].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
                     opcoes[1] = false;
@@ -377,8 +515,8 @@ public class DialogoComSlipt : MonoBehaviour
                 MudarCenarios();
                 if (i >= linhasB.Length - 1)
                 {
-                    BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(true);
-                    BotoesEmJogo.instancia.escolhas[3].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.escolhas[5].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
                     opcoes[2] = false;
@@ -388,8 +526,60 @@ public class DialogoComSlipt : MonoBehaviour
             }
         }
 
-        //Escolha Ba/Bb
+        //Escolha Aa/Ab/Ba/Bb
         else if (opcoes[3])
+        {
+            for (int i = num; i < linhasAa.Length;)
+            {
+                if (i >= 1)
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
+                else
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                cenarios = listaLinhasAaCenario[i];
+                personagem.text = listaLinhasAaPersonagem[i];
+                conteudo.text = listaLinhasAaFala[i];
+
+                PosicoesPersonagens();
+                MudarCenarios();
+                if (i >= linhasAa.Length - 1)
+                {
+                    BotoesEmJogo.instancia.escolhas[6].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.escolhas[7].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    opcoes[3] = false;
+                    num = 0;
+                }
+                break;
+            }
+        }
+
+        else if (opcoes[4])
+        {
+            for (int i = num; i < linhasAb.Length;)
+            {
+                if (i >= 1)
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
+                else
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                cenarios = listaLinhasAbCenario[i];
+                personagem.text = listaLinhasAbPersonagem[i];
+                conteudo.text = listaLinhasAbFala[i];
+
+                PosicoesPersonagens();
+                MudarCenarios();
+                if (i >= linhasAb.Length - 1)
+                {
+                    BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    opcoes[4] = false;
+                    num = 0;
+                }
+                break;
+            }
+        }
+
+        else if (opcoes[5])
         {
             for (int i = num; i < linhasBa.Length;)
             {
@@ -405,18 +595,18 @@ public class DialogoComSlipt : MonoBehaviour
                 MudarCenarios();
                 if (i >= linhasBa.Length - 1)
                 {
-                    BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(true);
-                    BotoesEmJogo.instancia.escolhas[5].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.escolhas[8].gameObject.SetActive(true);
+                    BotoesEmJogo.instancia.escolhas[9].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
-                    opcoes[3] = false;
+                    opcoes[5] = false;
                     num = 0;
                 }
                 break;
             }
         }
 
-        else if (opcoes[4])
+        else if (opcoes[6])
         {
             for (int i = num; i < linhasBb.Length;)
             {
@@ -434,14 +624,64 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
-                    opcoes[4] = false;
+                    opcoes[6] = false;
                 }
                 break;
             }
         }
 
-        //Escolha BAa/BAb
-        else if (opcoes[5])
+        //Escolha AAa/AAb/BAa/BAb
+        else if (opcoes[7])
+        {
+            for (int i = num; i < linhasAAa.Length;)
+            {
+                if (i >= 1)
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
+                else
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                cenarios = listaLinhasAAaCenario[i];
+                personagem.text = listaLinhasAAaPersonagem[i];
+                conteudo.text = listaLinhasAAaFala[i];
+
+                PosicoesPersonagens();
+                MudarCenarios();
+                if (i >= linhasAAa.Length - 1)
+                {
+                    BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    opcoes[7] = false;
+                    num = 0;
+                }
+                break;
+            }
+        }
+
+        else if (opcoes[8])
+        {
+            for (int i = num; i < linhasAAb.Length;)
+            {
+                if (i >= 1)
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(true);
+                else
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                cenarios = listaLinhasAAbCenario[i];
+                personagem.text = listaLinhasAAbPersonagem[i];
+                conteudo.text = listaLinhasAAbFala[i];
+
+                PosicoesPersonagens();
+                MudarCenarios();
+                if (i >= linhasAAb.Length - 1)
+                {
+                    BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
+                    BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    opcoes[8] = false;
+                    num = 0;
+                }
+                break;
+            }
+        }
+
+        else if (opcoes[9])
         {
             for (int i = num; i < linhasBAa.Length;)
             {
@@ -459,13 +699,13 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
-                    opcoes[5] = false;
+                    opcoes[9] = false;
                 }
                 break;
             }
         }
 
-        else if (opcoes[6])
+        else if (opcoes[10])
         {
             for (int i = num; i < linhasBAb.Length;)
             {
@@ -483,7 +723,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
-                    opcoes[6] = false;
+                    opcoes[10] = false;
                 }
                 break;
             }
@@ -523,37 +763,156 @@ public class DialogoComSlipt : MonoBehaviour
                 Ler();
                 break;
 
-            case "Ba":
-                PlayerPrefs.SetString("Escolha", "Ba");
+            case "Aa":
+                PlayerPrefs.SetString("Escolha", "Aa");
                 opcoes[3] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(false);
                 BotoesEmJogo.instancia.escolhas[3].gameObject.SetActive(false);
                 Ler();
                 break;
-            case "Bb":
-                PlayerPrefs.SetString("Escolha", "Bb");
+            case "Ab":
+                PlayerPrefs.SetString("Escolha", "Ab");
                 opcoes[4] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(false);
                 BotoesEmJogo.instancia.escolhas[3].gameObject.SetActive(false);
                 Ler();
                 break;
-
-            case "BAa":
-                PlayerPrefs.SetString("EscolhaBAa", "BAa");
+            case "Ba":
+                PlayerPrefs.SetString("Escolha", "Ba");
                 opcoes[5] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(false);
                 BotoesEmJogo.instancia.escolhas[5].gameObject.SetActive(false);
                 Ler();
                 break;
-            case "BAb":
-                PlayerPrefs.SetString("Escolha", "BAb");
+            case "Bb":
+                PlayerPrefs.SetString("Escolha", "Bb");
                 opcoes[6] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(false);
                 BotoesEmJogo.instancia.escolhas[5].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "AAa":
+                PlayerPrefs.SetString("Escolha", "Aaa");
+                opcoes[7] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhas[6].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhas[7].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "AAb":
+                PlayerPrefs.SetString("Escolha", "AAb");
+                opcoes[8] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhas[6].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhas[7].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "BAa":
+                PlayerPrefs.SetString("EscolhaBAa", "BAa");
+                opcoes[9] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhas[8].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhas[9].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "BAb":
+                PlayerPrefs.SetString("Escolha", "BAb");
+                opcoes[10] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhas[8].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhas[9].gameObject.SetActive(false);
+                Ler();
+                break;
+        }
+    }
+    
+    public void EscolhasEsp(string escolha)
+    {
+        switch (escolha)
+        {
+            case "A":
+                PlayerPrefs.SetString("Escolha", "A");
+                opcoes[1] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[0].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[1].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "B":
+                PlayerPrefs.SetString("Escolha", "B");
+                opcoes[2] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[0].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[1].gameObject.SetActive(false);
+                Ler();
+                break;
+
+            case "Aa":
+                PlayerPrefs.SetString("Escolha", "Aa");
+                opcoes[3] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[2].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[3].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "Ab":
+                PlayerPrefs.SetString("Escolha", "Ab");
+                opcoes[4] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[2].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[3].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "Ba":
+                PlayerPrefs.SetString("Escolha", "Ba");
+                opcoes[5] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[4].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[5].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "Bb":
+                PlayerPrefs.SetString("Escolha", "Bb");
+                opcoes[6] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[4].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[5].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "AAa":
+                PlayerPrefs.SetString("Escolha", "Aaa");
+                opcoes[7] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[6].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[7].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "AAb":
+                PlayerPrefs.SetString("Escolha", "AAb");
+                opcoes[8] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[6].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[7].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "BAa":
+                PlayerPrefs.SetString("EscolhaBAa", "BAa");
+                opcoes[9] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[8].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[9].gameObject.SetActive(false);
+                Ler();
+                break;
+            case "BAb":
+                PlayerPrefs.SetString("Escolha", "BAb");
+                opcoes[10] = true;
+                BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
+                BotoesEmJogo.instancia.escolhasEsp[8].gameObject.SetActive(false);
+                BotoesEmJogo.instancia.escolhasEsp[9].gameObject.SetActive(false);
                 Ler();
                 break;
         }

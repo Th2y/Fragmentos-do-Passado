@@ -11,6 +11,7 @@ public class BotoesEmJogo : MonoBehaviour
     public Button proximo;
     public Button anterior;
     public Button[] escolhas;
+    public Button[] escolhasEsp;
 
     void Awake()
     {
@@ -19,12 +20,14 @@ public class BotoesEmJogo : MonoBehaviour
         proximo.gameObject.SetActive(false);
         anterior.gameObject.SetActive(false);
 
-        escolhas[0].gameObject.SetActive(false);
-        escolhas[1].gameObject.SetActive(false);
-        escolhas[2].gameObject.SetActive(false);
-        escolhas[3].gameObject.SetActive(false);
-        escolhas[4].gameObject.SetActive(false);
-        escolhas[5].gameObject.SetActive(false);
+        for(int i = 0; i < escolhas.Length; i++)
+        {
+            escolhas[i].gameObject.SetActive(false);
+        }
+        for(int i = 0; i < escolhasEsp.Length; i++)
+        {
+            escolhasEsp[i].gameObject.SetActive(false);
+        }
     }
 
     public void Menu()

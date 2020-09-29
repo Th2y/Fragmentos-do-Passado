@@ -1,0 +1,12 @@
+QuartoAyla_Narrador_Ayla continuó con las imágenes entre los dedos, tratando de no llorar.
+QuartoAyla_AylaTriste_-Qué bueno sería poder retroceder en el tiempo y poder tenerte de regreso… -Todavía con las fotos en tus manos, mira el cielo estrellado y cierra los ojos, sin aguantarte más sostener el pranto.
+QuartoAyla_AylaTriste_-Tiempo... por favor trae de vuelta todas las oportunidades que perdí ... toda la felicidad y el amor que pudimos haber vivido juntas... antes de todo lo que transformó nuestras vidas.
+QuartoAlice_Narrador_Ayla abre los ojos y se da cuenta de que ya no está en su habitación y que ya era de mañana, confundida por todo lo que estaba viendo.
+QuartoAlice_AylaPadrao_Esta parece ser la habitación de Alice, pero ¿cómo llegué aquí?
+QuartoAlice_AylaPadrao_Esto solo puede ser un sueño… -Pellizca a ti misma, dándote cuenta de que era real.
+QuartoAlice_AylaPadrao_¡Allí! Entonces debe ser real ... pero ... ¿cómo? ¿Se han cumplido mis pedidos?
+QuartoAlice_Narrador_Mientras Ayla todavía intentaba comprender, llega Alice, sin comprender lo que había sucedido en el poco tiempo que había estado fuera.
+QuartoAlice_AlicePadrao_Ayla? ¿Qué sucedió? ¿De qué estás hablando?
+QuartoAlice_AylaPadrao_¿Que año es?
+QuartoAlice_AlicePadrao_2021, ¿olvidaste?  ¡Ayla! ¿Puedes decirme qué está pasando?
+_Narrador_Eliges:

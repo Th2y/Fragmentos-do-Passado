@@ -11,7 +11,8 @@ public class Carregamento : MonoBehaviour
     public enum TipoCarreg { Carregamento, TempoFixo };
     public TipoCarreg TipoDeCarregamento;
     public Image barraDeCarregamento;
-    public Text TextoProgresso;
+    //public Text TextoProgresso;
+    public Text[] carregandoText;
     private int progresso = 0;
 
     void Start()
@@ -32,6 +33,11 @@ public class Carregamento : MonoBehaviour
             barraDeCarregamento.fillMethod = Image.FillMethod.Horizontal;
             barraDeCarregamento.fillOrigin = (int)Image.OriginHorizontal.Left;
         }
+
+        if (PlayerPrefs.GetString("Idioma") == "Port")
+            carregandoText[0].gameObject.SetActive(true);
+        else if (PlayerPrefs.GetString("Idioma") == "Esp")
+            carregandoText[1].gameObject.SetActive(true);
     }
 
     IEnumerator CenaDeCarregamento(string cena)
@@ -65,8 +71,8 @@ public class Carregamento : MonoBehaviour
                 break;
         }
 
-        if (TextoProgresso != null)
-            TextoProgresso.text = progresso + "%";
+        //if (TextoProgresso != null)
+            //TextoProgresso.text = progresso + "%";
 
         if (barraDeCarregamento != null)
             barraDeCarregamento.fillAmount = (progresso / 100.0f);
