@@ -12,6 +12,8 @@ public class BotoesEmJogo : MonoBehaviour
     public Button anterior;
     public Button[] escolhas;
     public Button[] escolhasEsp;
+    public Button[] auto;
+    public bool automatico;
 
     void Awake()
     {
@@ -28,10 +30,29 @@ public class BotoesEmJogo : MonoBehaviour
         {
             escolhasEsp[i].gameObject.SetActive(false);
         }
+
+        auto[0].gameObject.SetActive(true);
+        auto[1].gameObject.SetActive(false);
     }
 
     public void Menu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void AutoSim()
+    {
+        DialogoComSlipt.instancia.num++;
+        DialogoComSlipt.instancia.Ler();
+        auto[1].gameObject.SetActive(true);
+        auto[0].gameObject.SetActive(false);
+        automatico = true;
+    }
+
+    public void AutoNao()
+    {
+        auto[0].gameObject.SetActive(true);
+        auto[1].gameObject.SetActive(false);
+        automatico = false;
     }
 }

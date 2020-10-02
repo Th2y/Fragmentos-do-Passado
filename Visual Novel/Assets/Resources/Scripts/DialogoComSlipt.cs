@@ -86,6 +86,9 @@ public class DialogoComSlipt : MonoBehaviour
     public int num = 1;
     private bool[] opcoes = new bool[7];
 
+    float tempo;
+    bool podeLer = true;
+
     public static DialogoComSlipt instancia;
 
     public void Awake()
@@ -94,7 +97,6 @@ public class DialogoComSlipt : MonoBehaviour
         {
             TextAsset textoInicial = (TextAsset)Resources.Load("Dialogos/Port/Inicio");
             linhasIniciais = textoInicial.text.Split('\n');
-            Debug.Log(textoInicial);
 
             TextAsset textoA = (TextAsset)Resources.Load("Dialogos/Port/OpcaoA");
             linhasA = textoA.text.Split('\n');
@@ -309,6 +311,23 @@ public class DialogoComSlipt : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (BotoesEmJogo.instancia.automatico)
+        {
+            if (podeLer)
+            {
+                tempo += Time.deltaTime;
+                if (tempo >= 20f)
+                {
+                    num++;
+                    Ler();
+                    tempo = 0f;
+                }
+            }
+        }
+    }
+
     public void PosicoesPersonagens()
     {
         //Narrador
@@ -465,6 +484,7 @@ public class DialogoComSlipt : MonoBehaviour
                     BotoesEmJogo.instancia.escolhas[1].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[0] = false;
                     num = 0;
                 }
@@ -493,6 +513,7 @@ public class DialogoComSlipt : MonoBehaviour
                     BotoesEmJogo.instancia.escolhas[3].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[1] = false;
                 }
                 break;
@@ -519,6 +540,7 @@ public class DialogoComSlipt : MonoBehaviour
                     BotoesEmJogo.instancia.escolhas[5].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[2] = false;
                     num = 0;
                 }
@@ -547,6 +569,7 @@ public class DialogoComSlipt : MonoBehaviour
                     BotoesEmJogo.instancia.escolhas[7].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[3] = false;
                     num = 0;
                 }
@@ -572,6 +595,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[4] = false;
                     num = 0;
                 }
@@ -599,6 +623,7 @@ public class DialogoComSlipt : MonoBehaviour
                     BotoesEmJogo.instancia.escolhas[9].gameObject.SetActive(true);
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[5] = false;
                     num = 0;
                 }
@@ -624,6 +649,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[6] = false;
                 }
                 break;
@@ -649,6 +675,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[7] = false;
                     num = 0;
                 }
@@ -674,6 +701,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[8] = false;
                     num = 0;
                 }
@@ -699,6 +727,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[9] = false;
                 }
                 break;
@@ -723,6 +752,7 @@ public class DialogoComSlipt : MonoBehaviour
                 {
                     BotoesEmJogo.instancia.proximo.gameObject.SetActive(false);
                     BotoesEmJogo.instancia.anterior.gameObject.SetActive(false);
+                    podeLer = false;
                     opcoes[10] = false;
                 }
                 break;
@@ -748,6 +778,7 @@ public class DialogoComSlipt : MonoBehaviour
         {
             case "A":
                 PlayerPrefs.SetString("Escolha", "A");
+                podeLer = true;
                 opcoes[1] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[0].gameObject.SetActive(false);
@@ -756,6 +787,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "B":
                 PlayerPrefs.SetString("Escolha", "B");
+                podeLer = true;
                 opcoes[2] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[0].gameObject.SetActive(false);
@@ -765,6 +797,7 @@ public class DialogoComSlipt : MonoBehaviour
 
             case "Aa":
                 PlayerPrefs.SetString("Escolha", "Aa");
+                podeLer = true;
                 opcoes[3] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(false);
@@ -773,6 +806,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "Ab":
                 PlayerPrefs.SetString("Escolha", "Ab");
+                podeLer = true;
                 opcoes[4] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[2].gameObject.SetActive(false);
@@ -781,6 +815,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "Ba":
                 PlayerPrefs.SetString("Escolha", "Ba");
+                podeLer = true;
                 opcoes[5] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(false);
@@ -789,6 +824,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "Bb":
                 PlayerPrefs.SetString("Escolha", "Bb");
+                podeLer = true;
                 opcoes[6] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[4].gameObject.SetActive(false);
@@ -797,6 +833,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "AAa":
                 PlayerPrefs.SetString("Escolha", "Aaa");
+                podeLer = true;
                 opcoes[7] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[6].gameObject.SetActive(false);
@@ -805,6 +842,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "AAb":
                 PlayerPrefs.SetString("Escolha", "AAb");
+                podeLer = true;
                 opcoes[8] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[6].gameObject.SetActive(false);
@@ -813,6 +851,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "BAa":
                 PlayerPrefs.SetString("EscolhaBAa", "BAa");
+                podeLer = true;
                 opcoes[9] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[8].gameObject.SetActive(false);
@@ -821,6 +860,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "BAb":
                 PlayerPrefs.SetString("Escolha", "BAb");
+                podeLer = true;
                 opcoes[10] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhas[8].gameObject.SetActive(false);
@@ -836,6 +876,7 @@ public class DialogoComSlipt : MonoBehaviour
         {
             case "A":
                 PlayerPrefs.SetString("Escolha", "A");
+                podeLer = true;
                 opcoes[1] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[0].gameObject.SetActive(false);
@@ -844,6 +885,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "B":
                 PlayerPrefs.SetString("Escolha", "B");
+                podeLer = true;
                 opcoes[2] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[0].gameObject.SetActive(false);
@@ -853,6 +895,7 @@ public class DialogoComSlipt : MonoBehaviour
 
             case "Aa":
                 PlayerPrefs.SetString("Escolha", "Aa");
+                podeLer = true;
                 opcoes[3] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[2].gameObject.SetActive(false);
@@ -861,6 +904,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "Ab":
                 PlayerPrefs.SetString("Escolha", "Ab");
+                podeLer = true;
                 opcoes[4] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[2].gameObject.SetActive(false);
@@ -869,6 +913,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "Ba":
                 PlayerPrefs.SetString("Escolha", "Ba");
+                podeLer = true;
                 opcoes[5] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[4].gameObject.SetActive(false);
@@ -877,6 +922,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "Bb":
                 PlayerPrefs.SetString("Escolha", "Bb");
+                podeLer = true;
                 opcoes[6] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[4].gameObject.SetActive(false);
@@ -885,6 +931,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "AAa":
                 PlayerPrefs.SetString("Escolha", "Aaa");
+                podeLer = true;
                 opcoes[7] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[6].gameObject.SetActive(false);
@@ -893,6 +940,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "AAb":
                 PlayerPrefs.SetString("Escolha", "AAb");
+                podeLer = true;
                 opcoes[8] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[6].gameObject.SetActive(false);
@@ -901,6 +949,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "BAa":
                 PlayerPrefs.SetString("EscolhaBAa", "BAa");
+                podeLer = true;
                 opcoes[9] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[8].gameObject.SetActive(false);
@@ -909,6 +958,7 @@ public class DialogoComSlipt : MonoBehaviour
                 break;
             case "BAb":
                 PlayerPrefs.SetString("Escolha", "BAb");
+                podeLer = true;
                 opcoes[10] = true;
                 BotoesEmJogo.instancia.proximo.gameObject.SetActive(true);
                 BotoesEmJogo.instancia.escolhasEsp[8].gameObject.SetActive(false);

@@ -10,7 +10,10 @@ public class ControleVolume : MonoBehaviour
 
     void Start()
     {
-        sliderMax.value = PlayerPrefs.GetFloat("Maximo");
+        if (!PlayerPrefs.HasKey("Maximo"))
+            sliderMax.value = 1;
+        else
+            sliderMax.value = PlayerPrefs.GetFloat("Maximo");
     }
 
     public void VolumeMaximo(float volume)

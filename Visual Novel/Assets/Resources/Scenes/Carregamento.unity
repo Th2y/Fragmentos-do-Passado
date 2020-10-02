@@ -712,7 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TempoFixoSeg: 20
-  TipoDeCarregamento: 1
+  TipoDeCarregamento: 0
   barraDeCarregamento: {fileID: 1522997108}
   carregandoText:
   - {fileID: 61626149}
