@@ -1,15 +1,7 @@
-QuartoAlice_AylaTriste_-Nada, solo estaba pensando en voz alta... ¿De qué estábamos hablando incluso antes de que te fueras?
-QuartoAlice_AliceTriste_-Acerca de la oportunidad laboral que pronto debería tener tu padre.
-QuartoAlice_AylaTriste_-Ah, sí, ¿qué crees que nos pasará?
-QuartoAlice_AliceTriste_-Bueno, creo que echaremos de menos estar realmente juntos, pero lo superaremos y en 2 años a partir de ahora podremos hacer una pasantía y tal vez podamos vivir juntas...
-QuartoAlice_AylaPadrao_-Recuerdo que ayer me ofrecieron un trabajo en la librería después de ayudar a una señora a encontrar un libro para su nieta, ¿qué crees que acepto? No necesitaríamos irnos…
-QuartoAlice_AlicePadrao_Creo que es una buena idea, pero ¿No te parecería extraño estar lejos de tus padres?
-QuartoAlice_AylaPadrao_Lo haré, por supuesto, pero en un momento u otro pasaría... ¿No es el curso natural de la vida?
-QuartoAlice_AlicePadrao_Verdad, pero ¿estás lista para hacerlo ahora?
-QuartoAlice_AylaTriste_Sí, en el futuro cualquier cosa después me mudaré allí y volveré a vivir con ellos.
-QuartoAlice_AlicePadrao_Está bien entonces, pero es mejor que hables con ellos primero.
-QuartoAlice_Narrador_Después de hacer toda la planificación, investigar los precios de todo para asegurarse de que el salario daría para pagar todas las facturas, Ayla regresa a casa y les cuenta todo a sus padres.
-QuartoAlice_Narrador_Aunque están tristes por estar separados de su única hija, aceptan, y sólo dan la condición de que en los feriados largos y las vacaciones se encuentren en uno de los dos lugares.
-QuartoAlice_Narrador_Al día siguiente, acepta el trabajo y pronto se pone en contacto con los propietarios de un apartamento ya completamente amueblado que aceptan la oferta. Una semana antes de que los padres se muden, comienza a poner sus cosas en su nuevo hogar.
-Sala_Narrador_Cinco años después, Ayla y Alice vivían juntas en su propio apartamento, felices con el rumbo que tomaron sus vidas.
-_Narrador_Ha completado esta línea de tiempo. ¡Juega de nuevo y elige otras opciones para ver más finales de esta historia!
+QuartoAlice_AylaTriste_AliceTriste_-Nada, solo estaba pensando en voz alta... ¿De qué estábamos hablando incluso antes de que te fueras?
+QuartoAlice_AliceTriste_AylaTriste_-Acerca de la oportunidad laboral que pronto debería tener tu padre.
+QuartoAlice_AylaTriste_AliceTriste_-Ah, sí, ¿qué crees que nos pasará?
+QuartoAlice_AliceTriste_AylaTriste_-Bueno, creo que echaremos de menos estar realmente juntos, pero lo superaremos y en 2 años a partir de ahora podremos hacer una pasantía y tal vez podamos vivir juntas...
+QuartoAlice_AylaPadrao_AliceTriste_-Recuerdo que ayer me ofrecieron un trabajo en la librería después de ayudar a una señora a encontrar un libro para su nieta, ¿qué crees que acepto? No necesitaríamos irnos…
+QuartoAlice_AlicePadrao_AylaPadrao_Creo que es una buena idea, pero ¿No te parecería extraño estar lejos de tus padres?
+_Narrador_Nada_Eliges:

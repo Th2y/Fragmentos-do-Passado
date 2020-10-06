@@ -1,11 +1,11 @@
-QuartoAyla_AylaTriste_Aún no lo sé, pero necesito tu ayuda para olvidarme de todo...
-Sala_FernandoNormal_De acuerdo, bueno, sé que no va a querer romper su amistad con ellas, pero tuve otra idea ...
-QuartoAyla_AylaNormal_¿Que idea?
-Sala_FernandoNormal_Espera un poco, eres solamiente el tiempo de yo llegar allí que te diré, mientras tanto, cámbiate de ropa -Apaga la llamada
-QuartoAyla_AylaNormal_¿Qué serás que ello esconde?
-QuartoAyla_Narrador_Pensativa, decide seguir el pedido de lo amigo, pero cuando se mira, se da cuenta de que podría irse con la ropa que llevaba, así que solo espera la llegada de Fernando.
-QuartoAyla_FernandoNormal_¿Vamonos?
-QuartoAyla_AylaNormal_¿Para donde?
-QuartoAyla_FernandoNormal_¿A dónde más iríamos? ¡Heladería!
-QuartoAyla_Narrador_Pronto Ayla se alegra y los dos salen, llegando allá, piden sus sabores favoritos y se toman el tiempo para charlar.
-_Narrador_Ha completado esta línea de tiempo. ¡Juega de nuevo y elige otras opciones para ver más finales de esta historia!
+QuartoAyla_AylaTriste_Nada_Aún no lo sé, pero necesito tu ayuda para olvidarme de todo...
+Sala_FernandoNormal_Nada_De acuerdo, bueno, sé que no va a querer romper su amistad con ellas, pero tuve otra idea ...
+QuartoAyla_AylaNormal_Nada_¿Que idea?
+Sala_FernandoNormal_Nada_Espera un poco, eres solamiente el tiempo de yo llegar allí que te diré, mientras tanto, cámbiate de ropa -Apaga la llamada
+QuartoAyla_AylaNormal_Nada_¿Qué serás que ello esconde?
+QuartoAyla_Narrador_Nada_Pensativa, decide seguir el pedido de lo amigo, pero cuando se mira, se da cuenta de que podría irse con la ropa que llevaba, así que solo espera la llegada de Fernando.
+QuartoAyla_FernandoNormal_AylaTriste_¿Vamonos?
+QuartoAyla_AylaNormal_FernandoNormal_¿Para donde?
+QuartoAyla_FernandoNormal_AylaPadrao_¿A dónde más iríamos? ¡Heladería!
+QuartoAyla_Narrador_Nada_Pronto Ayla se alegra y los dos salen, llegando allá, piden sus sabores favoritos y se toman el tiempo para charlar.
+_Narrador_Nada_Ha completado esta línea de tiempo. ¡Juega de nuevo y elige otras opciones para ver más finales de esta historia!

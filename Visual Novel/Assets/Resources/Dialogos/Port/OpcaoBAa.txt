@@ -1,16 +1,16 @@
-QuartoAlice_AylaTriste_Mas o que eu poderia fazer para não me mudar com meus pais? Eu ainda não consigo me sustentar…
-QuartoAlice_AlicePadrao_Porque não quer… Lembra de quando fomos na livraria aqui do bairro e te ofereceram um emprego após você ter ajudado uma senhora a encontrar um livro para a neta?
-QuartoAlice_Narrador_Ayla pausa um pouco para tentar fazer as lembranças voltarem e logo se lembra daquele dia.
-QuartoAlice_AylaPadrao_Lembro...Isso foi ontem, certo?
-QuartoAlice_AlicePadrao_Sim, e eles te deram até sexta para dar a resposta. Até onde sei, você ainda não recusou…
-QuartoAlice_AylaPadrao_Sim, também acredito nisso… E se eu aceitar, buscar um local para ficar… não mudar de estado com meus pais?
-QuartoAlice_AlicePadrao_Eu acho uma boa ideia, mas não sentiria falta dos seus pais?
-QuartoAlice_AylaPadrao_Vou, claro, mas uma hora ou outra isso iria acontecer mesmo… Não é o curso natural da vida?
-QuartoAlice_AlicePadrao_Verdade, mas está pronta para fazer isso agora?
-QuartoAlice_AylaTriste_Sim, no futuro qualquer coisa depois eu me mudo pra lá mesmo e volto a morar com eles.
-QuartoAlice_AlicePadrao_Tudo bem então, mas é bom você falar com eles primeiro.
-QuartoAlice_Narrador_Após fazerem todo o planejamento, pesquisando os preços de tudo para garantir que o salário daria para pagar todas as contas, Ayla volta para casa e conta tudo aos seus pais.
-QuartoAlice_Narrador_Mesmo tristes por se separarem da sua única filha, eles concordam, dando apenas a condição de que nos feriados prolongados e férias eles se reuniriam em um dos dois locais.
-QuartoAlice_Narrador_No dia seguinte, ela aceita o emprego e logo entra em contato com os donos de um apartamento já todo mobiliado que aceitam a oferta. Uma semana antes dos pais se mudarem, ela já começa a arrumar suas coisas em sua nova casa.
-Sala_Narrador_5 anos depois, Ayla e Alice estavam morando juntas no apartamento próprio delas, felizes com o rumo que suas vidas tomaram.
-_Narrador_Você concluiu essa linha temporal. Jogue novamente e escolha outras opções para ver mais finais dessa historinha!
+QuartoAlice_AylaTriste_AliceTriste_Mas o que eu poderia fazer para não me mudar com meus pais? Eu ainda não consigo me sustentar…
+QuartoAlice_AlicePadrao_AylaTriste_Porque não quer… Lembra de quando fomos na livraria aqui do bairro e te ofereceram um emprego após você ter ajudado uma senhora a encontrar um livro para a neta?
+QuartoAlice_Narrador_Nada_Ayla pausa um pouco para tentar fazer as lembranças voltarem e logo se lembra daquele dia.
+QuartoAlice_AylaPadrao_AlicePadrao_Lembro...Isso foi ontem, certo?
+QuartoAlice_AlicePadrao_AylaPadrao_Sim, e eles te deram até sexta para dar a resposta. Até onde sei, você ainda não recusou…
+QuartoAlice_AylaPadrao_AlicePadrao_Sim, também acredito nisso… E se eu aceitar, buscar um local para ficar… não mudar de estado com meus pais?
+QuartoAlice_AlicePadrao_AylaPadrao_Eu acho uma boa ideia, mas não sentiria falta dos seus pais?
+QuartoAlice_AylaPadrao_AlicePadrao_Vou, claro, mas uma hora ou outra isso iria acontecer mesmo… Não é o curso natural da vida?
+QuartoAlice_AlicePadrao_AylaPadrao_Verdade, mas está pronta para fazer isso agora?
+QuartoAlice_AylaTriste_AlicePadrao_Sim, no futuro qualquer coisa depois eu me mudo pra lá mesmo e volto a morar com eles.
+QuartoAlice_AlicePadrao_AylaPadrao_Tudo bem então, mas é bom você falar com eles primeiro.
+QuartoAlice_Narrador_Nada_Após fazerem todo o planejamento, pesquisando os preços de tudo para garantir que o salário daria para pagar todas as contas, Ayla volta para casa e conta tudo aos seus pais.
+QuartoAlice_Narrador_Nada_Mesmo tristes por se separarem da sua única filha, eles concordam, dando apenas a condição de que nos feriados prolongados e férias eles se reuniriam em um dos dois locais.
+QuartoAlice_Narrador_Nada_No dia seguinte, ela aceita o emprego e logo entra em contato com os donos de um apartamento já todo mobiliado que aceitam a oferta. Uma semana antes dos pais se mudarem, ela já começa a arrumar suas coisas em sua nova casa.
+Sala_Narrador_Nada_5 anos depois, Ayla e Alice estavam morando juntas no apartamento próprio delas, felizes com o rumo que suas vidas tomaram.
+_Narrador_Nada_Você concluiu essa linha temporal. Jogue novamente e escolha outras opções para ver mais finais dessa historinha!

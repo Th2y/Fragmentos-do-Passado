@@ -1,12 +1,12 @@
-QuartoAyla_Narrador_Ayla continuou com as fotos entre seus dedos, tentando não chorar.
-QuartoAyla_AylaTriste_-Como seria bom poder voltar no tempo e poder te ter de volta…-Ainda com as fotos em suas mãos, olha para o céu estrelado e fecha os olhos, já sem aguentar segurar o choro.
-QuartoAyla_AylaTriste_-Tempo...por favor traga de volta todas as chances que perdi... toda a felicidade e amor que poderíamos ter vivido juntas...antes de tudo que transformou nossas vidas.
-QuartoAlice_Narrador_Ayla abre os olhos e percebe que não está mais em seu quarto e que agora já era de manhã, ficando confusa com tudo que estava vendo.
-QuartoAlice_AylaPadrao_Esse parece ser o quarto da Alice, mas como eu vim parar aqui? 
-QuartoAlice_AylaPadrao_Isso só pode ser um sonho… -Belisca a si mesma, percebedo que aquilo era real.
-QuartoAlice_AylaPadrao_Aí! Então deve ser real… mas… como? Será que meus pedidos foram atendidos?
-QuartoAlice_Narrador_Enquanto a Ayla ainda tentava entender, a Alice chega, sem entender o que havia acontecido no pouco tempo que passara longe.
-QuartoAlice_AlicePadrao_Ayla? O que aconteceu? Do que você está falando?
-QuartoAlice_AylaPadrao_Em que ano estamos?
-QuartoAlice_AlicePadrao_2021, esqueceu? Ayla! Dá pra me contar o que está acontecendo?
-_Narrador_Escolha:
+QuartoAyla_Narrador_Nada_Ayla continuou com as fotos entre seus dedos, tentando não chorar.
+QuartoAyla_AylaTriste_Nada_-Como seria bom poder voltar no tempo e poder te ter de volta…-Ainda com as fotos em suas mãos, olha para o céu estrelado e fecha os olhos, já sem aguentar segurar o choro.
+QuartoAyla_AylaTriste_Nada_-Tempo...por favor traga de volta todas as chances que perdi... toda a felicidade e amor que poderíamos ter vivido juntas...antes de tudo que transformou nossas vidas.
+QuartoAlice_Narrador_Nada_Ayla abre os olhos e percebe que não está mais em seu quarto e que agora já era de manhã, ficando confusa com tudo que estava vendo.
+QuartoAlice_AylaPadrao_Nada_Esse parece ser o quarto da Alice, mas como eu vim parar aqui? 
+QuartoAlice_AylaPadrao_Nada_Isso só pode ser um sonho… -Belisca a si mesma, percebedo que aquilo era real.
+QuartoAlice_AylaPadrao_Nada_Aí! Então deve ser real… mas… como? Será que meus pedidos foram atendidos?
+QuartoAlice_Narrador_Nada_Enquanto a Ayla ainda tentava entender, a Alice chega, sem entender o que havia acontecido no pouco tempo que passara longe.
+QuartoAlice_AlicePadrao_AylaPadrao_Ayla? O que aconteceu? Do que você está falando?
+QuartoAlice_AylaPadrao_AlicePadrao_Em que ano estamos?
+QuartoAlice_AlicePadrao_AylaPadrao_2021, esqueceu? Ayla! Dá pra me contar o que está acontecendo?
+_Narrador_Nada_Escolha:

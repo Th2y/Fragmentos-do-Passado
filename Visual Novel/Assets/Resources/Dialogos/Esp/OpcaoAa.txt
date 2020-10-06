@@ -1,9 +1,9 @@
-QuartoAyla_Narrador_Ayla decide llamar a su mejor amigo, Fernando, quien pronto responde.
-QuartoAyla_AylaTriste_¿Hola...? ¿Fernando?
-Sala_FernandoNormal_Hola Ayla, ¿qué pasó?
-QuartoAyla_AylaTriste_No te gustará el motivo, pero te lo cuento todo:
-QuartoAyla_AylaTriste_Estaba en Instagram cuando vi una foto de Alice ... con Carol besándose.
-Sala_FernandoIrritado_¿Como asi? ¿Por qué todavía ves algo de ellas? ¿No te dije que rompieras con ellas en las redes sociales la última vez que viste una foto de ellas?
-QuartoAyla_AylaIrritada_Sí ... incluso pensé en hacer eso, pero no pude ...
-Sala_FernandoTriste_Está bien, lo siento… ¿Pero qué piensas hacer ahora?
-_Narrador_Eliges:
+QuartoAyla_Narrador_Nada_Ayla decide llamar a su mejor amigo, Fernando, quien pronto responde.
+QuartoAyla_AylaTriste_Nada_¿Hola...? ¿Fernando?
+Sala_FernandoNormal_Nada_Hola Ayla, ¿qué pasó?
+QuartoAyla_AylaTriste_Nada_No te gustará el motivo, pero te lo cuento todo:
+QuartoAyla_AylaTriste_Nada_Estaba en Instagram cuando vi una foto de Alice ... con Carol besándose.
+Sala_FernandoIrritado_Nada_¿Como asi? ¿Por qué todavía ves algo de ellas? ¿No te dije que rompieras con ellas en las redes sociales la última vez que viste una foto de ellas?
+QuartoAyla_AylaIrritada_Nada_Sí ... incluso pensé en hacer eso, pero no pude ...
+Sala_FernandoTriste_Nada_Está bien, lo siento… ¿Pero qué piensas hacer ahora?
+_Narrador_Nada_Eliges:

@@ -1,4 +1,4 @@
-QuartoAyla_Narrador_Sentindo raiva de todo o seu passado com a Alice, Ayla decide rasgar as fotos ao meio e as jogar no lixo, antes que sentisse saudades novamente de algo que não tinha mais jeito.
-QuartoAyla_AylaTriste_É melhor assim... -Falou baixinho e decide guardar a caixa no local onde estava. Porém, antes que pudesse fazer isso, encontra uma pulseira.
-QuartoAyla_AylaTriste_Não acredito que essa pulseira ainda está aqui, tinha tanto tempo… -Mesmo triste, resolve jogar junto com as fotos que acabara de rasgar.
-_Narrador_Escolha:
+QuartoAyla_Narrador_Nada_Sentindo raiva de todo o seu passado com a Alice, Ayla decide rasgar as fotos ao meio e as jogar no lixo, antes que sentisse saudades novamente de algo que não tinha mais jeito.
+QuartoAyla_AylaTriste_Nada_É melhor assim... -Falou baixinho e decide guardar a caixa no local onde estava. Porém, antes que pudesse fazer isso, encontra uma pulseira.
+QuartoAyla_AylaTriste_Nada_Não acredito que essa pulseira ainda está aqui, tinha tanto tempo… -Mesmo triste, resolve jogar junto com as fotos que acabara de rasgar.
+_Narrador_Nada_Escolha:

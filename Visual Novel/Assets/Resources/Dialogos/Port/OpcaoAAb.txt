@@ -1,11 +1,11 @@
-QuartoAyla_AylaTriste_Ainda não sei, mas preciso da sua ajuda para esquecer disso tudo…
-Sala_FernandoNormal_Tudo bem, sei que você não vai querer desfazer as amizades com elas, mas tive outra ideia…
-QuartoAyla_AylaNormal_Qual ideia?
-Sala_FernandoNormal_Espere um pouco, é só o tempo de eu chegar aí que te conto, enquanto isso, troque de roupa -Desliga a ligação
-QuartoAyla_AylaNormal_O que será que ele está aprontando?
-QuartoAyla_Narrador_Pensativa, decide seguir o pedido do amigo, mas, ao olhar para si mesma, percebe que já conseguiria sair com a roupa que estava, então fica apenas esperando a chegada do mesmo.
-QuartoAyla_FernandoNormal_Vamos?
-QuartoAyla_AylaNormal_Para onde?
-QuartoAyla_FernandoNormal_Para onde mais iríamos? Sorveteria!
-QuartoAyla_Narrador_Logo Ayla se anima e os dois saem, chegando lá, pedem seus sabores favoritos e aproveitam o tempo para conversar.
-_Narrador_Você concluiu essa linha temporal. Jogue novamente e escolha outras opções para ver mais finais dessa historinha!
+QuartoAyla_AylaTriste_Nada_Ainda não sei, mas preciso da sua ajuda para esquecer disso tudo…
+Sala_FernandoNormal_Nada_Tudo bem, sei que você não vai querer desfazer as amizades com elas, mas tive outra ideia…
+QuartoAyla_AylaPadrao_Nada_Qual ideia?
+Sala_FernandoNormal_Nada_Espere um pouco, é só o tempo de eu chegar aí que te conto, enquanto isso, troque de roupa -Desliga a ligação
+QuartoAyla_AylaPadrao_Nada_O que será que ele está aprontando?
+QuartoAyla_Narrador_Nada_Pensativa, decide seguir o pedido do amigo, mas, ao olhar para si mesma, percebe que já conseguiria sair com a roupa que estava, então fica apenas esperando a chegada do mesmo.
+QuartoAyla_FernandoNormal_AylaTriste_Vamos?
+QuartoAyla_AylaPadrao_FernandoNormal_Para onde?
+QuartoAyla_FernandoNormal_AylaPadrao_Para onde mais iríamos? Sorveteria!
+QuartoAyla_Narrador_Nada_Logo Ayla se anima e os dois saem, chegando lá, pedem seus sabores favoritos e aproveitam o tempo para conversar.
+_Narrador_Nada_Você concluiu essa linha temporal. Jogue novamente e escolha outras opções para ver mais finais dessa historinha!

@@ -1,6 +1,6 @@
-_QuartoAyla_AylaIrritada_No puedo seguir así… tengo que deshacerme de todo lo que me recuerda a Alice de inmediato -Dije, todavía irritada por haber recordado todo eso.
-QuartoAyla_Narrador_Respira profundamente y luego comienza a buscar en cada rincón de su habitación cualquier cosa que le recuerde a Alice. Algún tiempo después, lo encuentra todo y lo junta en una bolsa para que al día siguiente pueda donarlo a alguien que pueda darle un mejor uso.
-QuartoAyla_AylaTriste_Bueno, creo que he terminado, ahora todo lo que tengo que hacer es romper las amistades y eso es todo. Debería haber hecho esto hace mucho tiempo...
-QuartoAyla_Narrador_Pronto termina y decide distraerse llamando a su mejor amigo, Fernando, invitándolo a tomar un helado y conversar un poco.
-QuartoAyla_Narrador_Él responde y pronto se va, allí, ella le cuenta todo lo sucedido y comienza a sentir un alivio al finalmente tener el coraje de olvidar su pasado.
-_Narrador_Ha completado esta línea de tiempo. ¡Juega de nuevo y elige otras opciones para ver más finales de esta historia!
+_QuartoAyla_AylaIrritada_Nada_No puedo seguir así… tengo que deshacerme de todo lo que me recuerda a Alice de inmediato -Dije, todavía irritada por haber recordado todo eso.
+QuartoAyla_Narrador_Nada_Respira profundamente y luego comienza a buscar en cada rincón de su habitación cualquier cosa que le recuerde a Alice. Algún tiempo después, lo encuentra todo y lo junta en una bolsa para que al día siguiente pueda donarlo a alguien que pueda darle un mejor uso.
+QuartoAyla_AylaTriste_Nada_Bueno, creo que he terminado, ahora todo lo que tengo que hacer es romper las amistades y eso es todo. Debería haber hecho esto hace mucho tiempo...
+QuartoAyla_Narrador_Nada_Pronto termina y decide distraerse llamando a su mejor amigo, Fernando, invitándolo a tomar un helado y conversar un poco.
+QuartoAyla_Narrador_Nada_Él responde y pronto se va, allí, ella le cuenta todo lo sucedido y comienza a sentir un alivio al finalmente tener el coraje de olvidar su pasado.
+_Narrador_Nada_Ha completado esta línea de tiempo. ¡Juega de nuevo y elige otras opciones para ver más finales de esta historia!

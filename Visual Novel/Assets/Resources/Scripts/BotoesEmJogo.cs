@@ -13,6 +13,7 @@ public class BotoesEmJogo : MonoBehaviour
     public Button[] escolhas;
     public Button[] escolhasEsp;
     public Button[] auto;
+    public Button[] conf;
     public bool automatico;
 
     void Awake()
@@ -33,6 +34,17 @@ public class BotoesEmJogo : MonoBehaviour
 
         auto[0].gameObject.SetActive(true);
         auto[1].gameObject.SetActive(false);
+
+        if(PlayerPrefs.GetString("Idioma") == "Port")
+        {
+            conf[0].gameObject.SetActive(true);
+            conf[1].gameObject.SetActive(false);
+        }
+        else if (PlayerPrefs.GetString("Idioma") == "Esp")
+        {
+            conf[1].gameObject.SetActive(true);
+            conf[0].gameObject.SetActive(false);
+        }
     }
 
     public void Menu()

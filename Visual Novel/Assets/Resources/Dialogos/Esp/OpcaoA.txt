@@ -1,4 +1,4 @@
-QuartoAyla_Narrador_Sintiéndose enojada por todo su pasado con Alice, Ayla decide romper las fotos por la mitad y tirarlas a la basura, antes de restaurar todos esos recuerdos nuevamente.
-QuartoAyla_AylaTriste_Es mejor así ... -Habló en voz baja y decidió dejar la caja donde estaba. Sin embargo, antes de que pueda hacer eso, encuentra un brazalete.
-QuartoAyla_AylaTriste_No puedo creer que este brazalete todavía esté aquí, tuve tanto tiempo… -Mismo triste, decide tirarlo junto con las fotos que acabas de romper.
-_Narrador_Eliges:
+QuartoAyla_Narrador_Nada_Sintiéndose enojada por todo su pasado con Alice, Ayla decide romper las fotos por la mitad y tirarlas a la basura, antes de restaurar todos esos recuerdos nuevamente.
+QuartoAyla_AylaTriste_Nada_Es mejor así ... -Habló en voz baja y decidió dejar la caja donde estaba. Sin embargo, antes de que pueda hacer eso, encuentra un brazalete.
+QuartoAyla_AylaTriste_Nada_No puedo creer que este brazalete todavía esté aquí, tuve tanto tiempo… -Mismo triste, decide tirarlo junto con las fotos que acabas de romper.
+_Narrador_Nada_Eliges:

@@ -1,10 +1,3 @@
-QuartoAlice_AylaTriste_AliceTriste_Pero, ¿Qué podía hacer para no vivir con mis padres? Todavía no puedo mantenerme ...
-QuartoAlice_AlicePadrao_AylaTriste_¿Por qué no? ¿Recuerdas cuando fuimos a la librería aquí en el barrio y te ofrecieron un trabajo después de que ayudaste a una señora a encontrar un libro para su nieta?
-QuartoAlice_Narrador_Nada_Ayla se detiene un momento para intentar que los recuerdos regresen y pronto recuerda ese día.
-QuartoAlice_AylaPadrao_AlicePadrao_Recuerdo ... Eso fue ayer, ¿verdad?
-QuartoAlice_AlicePadrao_AylaPadrao_Sí, y te dieron hasta el viernes para responder. Hasta donde yo sé, todavía no te has negado...
-QuartoAlice_AylaPadrao_AlicePadrao_Sí, yo también creo en eso ... Y si acepto, busco un lugar donde quedarme... ¿Y no cambio de estado con mis padres?
-QuartoAlice_AlicePadrao_AylaPadrao_Creo que es una buena idea, pero ¿No te parecería extraño estar lejos de tus padres?
 QuartoAlice_AylaPadrao_AlicePadrao_Lo haré, por supuesto, pero en un momento u otro pasaría... ¿No es el curso natural de la vida?
 QuartoAlice_AlicePadrao_AylaPadrao_Verdad, pero ¿estás lista para hacerlo ahora?
 QuartoAlice_AylaTriste_AlicePadrao_Sí, en el futuro cualquier cosa después me mudaré allí y volveré a vivir con ellos.

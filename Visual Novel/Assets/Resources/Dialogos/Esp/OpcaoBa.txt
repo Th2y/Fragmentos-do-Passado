@@ -1,14 +1,14 @@
-QuartoAlice_AylaPadrao_Entonces es verdad... de alguna manera logré retroceder en el tiempo...
-QuartoAlice_AlicePadrao_¿Volver en el tiempo? ¿De qué estás hablando?
-QuartoAlice_AylaPadrao_Bueno, puede que incluso pienses que es una locura, pero yo estaba viviendo en 2026, cuando vi una foto de nosotras juntas e hice una solicitud para volver atrás en el tiempo.
-QuartoAlice_AlicePadrao_Si esto es realmente cierto, ¿por qué lo hizo?
-QuartoAlice_AylaTriste_Respira hondo -Con todo lo que pasará pronto, terminamos alejándonos y dentro de 5 años, de hecho algo menos, tú y Carol serán novias.
-QuartoAlice_AliceIrritada_No sé por qué bromeas al respecto, pero puedo decirte que no está bien lo que estás haciendo.
-QuartoAlice_AylaTriste_Sé que no lo es y que es difícil de creer, pero es la verdad. Vi varias fotos tuyas en Instagram con Carol besándose.
-QuartoAlice_AliceIrritada_Sólo te puedes haber golpeado la cabeza ... Ni en mil años estaría con Carol.
-QuartoAlice_AylaTriste_Sé que parece extraño ahora, pero dentro de 5 años esto es lo que sucederá, al menos si no hago nada para cambiar el futuro.
-QuartoAlice_AliceTriste_Pareces estar tan segura de ello ... Pero te garantizo que NUNCA sucederá, ¿de acuerdo?
-QuartoAlice_AylaIrritada_¡No estoy loca! Después de mi mudanza, nos alejaremos cada vez más, en 2 años terminaremos nuestra relación, seguiremos siendo amigas, pero en 4 años, tendremos una pelea fea y nunca volveremos a hablar, seremos amigas solo por redes sociales, y mira allí si eso no va a cambiar más tarde ...
-QuartoAlice_AliceTriste_¡Escucha! ¡Relajarse! No sucederá, y si eso es cierto, ahora tenemos la oportunidad de salvarme de Carol, ni siquiera puedo imaginar cómo sería que ella me gustara ...
-QuartoAlice_AylaPadrao_De hecho, parecías muy feliz ... -Habla preguntándose si lo que querías cambiar era realmente la mejor opción.
-_Narrador_Eliges:
+QuartoAlice_AylaPadrao_AlicePadrao_Entonces es verdad... de alguna manera logré retroceder en el tiempo...
+QuartoAlice_AlicePadrao_AylaPadrao_¿Volver en el tiempo? ¿De qué estás hablando?
+QuartoAlice_AylaPadrao_AlicePadrao_Bueno, puede que incluso pienses que es una locura, pero yo estaba viviendo en 2026, cuando vi una foto de nosotras juntas e hice una solicitud para volver atrás en el tiempo.
+QuartoAlice_AlicePadrao_AylaPadrao_Si esto es realmente cierto, ¿por qué lo hizo?
+QuartoAlice_AylaTriste_AliceTriste_Respira hondo -Con todo lo que pasará pronto, terminamos alejándonos y dentro de 5 años, de hecho algo menos, tú y Carol serán novias.
+QuartoAlice_AliceIrritada_AylaTriste_No sé por qué bromeas al respecto, pero puedo decirte que no está bien lo que estás haciendo.
+QuartoAlice_AylaTriste_AliceIrritada_Sé que no lo es y que es difícil de creer, pero es la verdad. Vi varias fotos tuyas en Instagram con Carol besándose.
+QuartoAlice_AliceIrritada_AylaTriste_Sólo te puedes haber golpeado la cabeza ... Ni en mil años estaría con Carol.
+QuartoAlice_AylaTriste_AliceIrritada_Sé que parece extraño ahora, pero dentro de 5 años esto es lo que sucederá, al menos si no hago nada para cambiar el futuro.
+QuartoAlice_AliceTriste_AylaTriste_Pareces estar tan segura de ello ... Pero te garantizo que NUNCA sucederá, ¿de acuerdo?
+QuartoAlice_AylaIrritada_AliceTriste_¡No estoy loca! Después de mi mudanza, nos alejaremos cada vez más, en 2 años terminaremos nuestra relación, seguiremos siendo amigas, pero en 4 años, tendremos una pelea fea y nunca volveremos a hablar, seremos amigas solo por redes sociales, y mira allí si eso no va a cambiar más tarde ...
+QuartoAlice_AliceTriste_AylaIrritada_¡Escucha! ¡Relajarse! No sucederá, y si eso es cierto, ahora tenemos la oportunidad de salvarme de Carol, ni siquiera puedo imaginar cómo sería que ella me gustara ...
+QuartoAlice_AylaPadrao_AliceTriste_De hecho, parecías muy feliz ... -Habla preguntándose si lo que querías cambiar era realmente la mejor opción.
+_Narrador_Nada_Eliges:
