@@ -1,0 +1,27 @@
+Sala_AylaIrritada_AlicePadrao_ Desde quando o Fernando é exagerado?
+Sala_AliceIrritada_AylaIrritada_ Desde sempre!
+Sala_AylaIrritada_AliceIrritada_ Não! E pare com esse seu ciúmes dele, toda vez é a mesma coisa!
+Sala_AliceIrritada_AylaIrritada_ Se eu sinto ciúmes, é por algum motivo, não acha?
+Sala_AylaIrritada_AliceIrritada_ Um motivo que não existe! Vou ter que repetir mais quantas vezes?
+Sala_AliceIrritada_AylaIrritada_ Nenhuma. Quer saber? Vou para o quarto, quando ele chegar, se ele for falar da adoção, diga que desisto por enquanto, preciso pensar se essa é uma boa ideia mesmo.
+Sala_AylaIrritada_AliceIrritada_ E por que não seria? Não é esse o plano desde sempre?
+Sala_Narrador_Nada_ Antes mesmo de responder, Alice sai e se tranca no quarto.
+Sala_Narrador_Nada_ Pouco depois, o Fernando chega.
+Sala_FernandoNormal_AylaIrritada_ Ayla! Alice! Cheguei!
+Sala_AylaTriste_FernandoNormal_ Oi Nando, qual a excelente notícia?
+Sala_FernandoNormal_AylaTriste_ Pera… O que aconteceu? Por que você está tão tristinha?
+Sala_AylaTriste_FernandoNormal_ Eu e Alice brigamos… 
+Sala_FernandoIrritado_AylaTriste_ De novo? 
+Sala_AylaTriste_FernandoIrritado_ Sim, mas não quero falar disso agora…
+Sala_FernandoTriste_AylaTriste_ Tudo bem. 
+Sala_FernandoTriste_AylaTriste_ Acho que a notícia que eu tinha para dar agora não vai ser tão boa quanto imaginei…
+Sala_AylaTriste_FernandoIrritado_ Conte que eu decido
+Sala_FernandoNormal_AylaTriste_ Aqui estão os papéis para a adoção, caso ainda queiram, claro. Mas precisam decidir até terça e me entregar tudo preenchido. 
+Sala_AylaTriste_FernandoNormal_ Certo, mas acho que não vamos querer mais, pelo menos por enquanto…
+Sala_AylaTriste_FernandoTriste_ Desculpa por te fazer perder tempo...
+Sala_FernandoTriste_AylaTriste_ Não tem problema, eu estou aqui para ajudar. Mas deixe para dar a resposta amanhã, quem sabe com a cabeça fria vocês mudem de ideia... 
+Sala_AylaTriste_FernandoTriste_ Tudo bem
+Sala_Narrador_Nada_ O Fernando tenta reanimar a Ayla porém não consegue. Algum tempo depois, ele percebe que já está ficando tarde e volta para casa.
+Sala_Narrador_Nada_ No dia seguinte, as duas continuam brigadas, discutindo sobre ainda mais coisas que estavam guardadas há muito tempo.
+Sala_Narrador_Nada_ Uma semana depois, o clima na casa ainda continua muito ruim, então elas decidem se separar e dividir tudo que compraram juntas.
+_Narrador_Nada_ Você concluiu essa linha temporal. Jogue novamente e escolha outras opções para ver mais finais dessa historinha!

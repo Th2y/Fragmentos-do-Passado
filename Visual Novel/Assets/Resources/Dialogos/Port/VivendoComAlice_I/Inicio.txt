@@ -1,0 +1,4 @@
+_Narrador_Nada_ Em 2027…
+Sala_AylaPadrao_AlicePadrao_ Alice, onde está aquela minha caixa de recordações? Já procurei em todos os locais mas até agora não encontrei
+Sala_AlicePadrao_AylaPadrao_ Está lá no quarto, mas pra quê você quer ela agora?
+_Narrador_Nada_ Escolha:

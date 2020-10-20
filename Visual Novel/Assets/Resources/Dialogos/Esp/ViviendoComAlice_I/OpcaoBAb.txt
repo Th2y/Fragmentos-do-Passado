@@ -1,0 +1,20 @@
+Sala_AylaIrritada_AliceIrritada_ Como sempre, você está errada, eu já te disse que aquela foto não tem nada demais! E outra: estávamos brigadas na época, lembra?
+Sala_AliceIrritada_AylaIrritada_ Claro que lembro! Esse é um motivos para eu odiar tanto aquela foto!
+Sala_Narrador_Nada_ Elas continuam brigando por um tempo e depois desistem de sair. Quando a briga finalmente termina, Alice vai para o quarto e fica chorando.
+Sala_Narrador_Nada_ Buscando se distrair, Ayla decide chamar o Fernando para a sua casa. Ela procura a caixa e finalmente encontra. Pouco depois, ele chega.
+Sala_AylaTriste_FernandoPadrao_ Nando, você quer rever aquelas nossas lembranças de quando nos conhecemos? 
+Sala_FernandoPadrao_AylaTriste_ Só se for agora! 
+Sala_AylaTriste_FernandoPadrao_ Aqui estão… Lembra desse dia?
+Sala_FernandoPadrao_AylaTriste_ O dia que nos conhecemos… 
+Sala_FernandoTriste_AylaTriste_ Você estava tão triste… Parecendo como está hoje… O que aconteceu?
+Sala_AylaTriste_FernandoTriste_ Nada demais, só briguei com a Alice novamente 
+Sala_FernandoTriste_AylaTriste_ Sempre… Qual é mesmo o motivo de vocês ainda estarem juntas, e, ainda mais querendo adotar uma criança?
+Sala_AylaTriste_FernandoTriste_ Nós nos amamos e esse é o nosso plano desde sempre. Pelo menos é o que eu pensava...
+Sala_FernandoTriste_AylaTriste_ O que mudou?
+Sala_AylaTriste_FernandoTriste_ Não sei, mas eu estou cansada disso, eu apenas quero ser feliz. Será que é pedir demais?
+Sala_FernandoNormal_AylaTriste_ Não! Claro que não! Você tem todo o direito de querer ser feliz, e saiba que eu sempre estarei ao seu lado para te apoiar.  
+Sala_AylaTriste_FernandoTriste_ Eu sei…
+Sala_Narrador_Nada_ Eles continuam conversando por um tempo, até perceberem que já estava tarde, então o Fernando vai para a sua casa.
+Sala_Narrador_Nada_ Depois que ele sai, Alice volta para a sala e termina todo o relacionamento, pois havia escutado toda a conversa, entendendo que Ayla estava apaixonada pelo Fernando, mesmo que ainda não admitisse.
+Sala_Narrador_Nada_ Com isso, Ayla sai de casa indo para a casa dele. Lá, os dois admitem os seus sentimentos e passam a viver juntos.
+_Narrador_Nada_ Você concluiu essa linha temporal. Jogue novamente e escolha outras opções para ver mais finais dessa historinha!

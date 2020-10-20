@@ -1,0 +1,25 @@
+Sala_AylaPadrao_AylaPadrao_ Ainda não, mas falto apenas trocar de roupa, já tomei banho e comi um pouquinho
+Sala_AlicePadrao_AlicePadrao_ Bom, então troque de roupa logo e depois você procura
+Sala_AylaPadrao_AylaPadrao_ Sim, é isso mesmo que eu vou fazer, sei que você ainda vai demorar, então quando terminar me chame por favor
+Sala_AlicePadrao_AlicePadrao_ Claro
+Sala_Narrador_Nada_ Logo Alice foi tomar banho e Ayla após trocar de roupa começou as buscas no quarto
+QuartoAyla_AylaPadrao_Nada_ Finalmente! 
+Sala_AlicePadrao_Nada_ Ayla! Vamos?
+QuartoAyla_AylaPadrao_Nada_ Já?! Certo, já estou indo! 
+Sala_Narrador_Nada_ Logo as duas saem para o shopping e passam lá o restante do dia, quando finalmente chegam em casa, estão cansadas e vão dormir.
+
+QuartoAyla_AylaPadrao_AlicePadrao_ Alice, aproveitando que hoje é domingo e não temos nada para fazer, quer rever comigo as nossas recordações?
+QuartoAyla_AlicePadrao_AylaPadrao_ Vamos, deixe só eu comer primeiro
+QuartoAyla_AylaPadrao_AlicePadrao_ Claro! Já deixei a comida pronta, está na mesa. Vá comendo enquanto eu levo para a sala
+Sala_Narrador_Nada_ Logo as duas saem e uns 10 minutos depois, Alice se junta a Ayla para rever as recordações
+Sala_AlicePadrao_AylaPadrao_ Nem parece que essa foto foi tirada há 6 anos...
+Sala_AylaPadrao_AlicePadrao_ Sim, parece mais que foi ontem…
+Sala_Narrador_Nada_ (Mostrar a foto)
+Sala_Narrador_Nada_ As duas ficam um tempo recordando tudo, desde as mais alegres até as mais tristes. Porém algum tempo depois Ayla recebe uma ligação do seu amigo Fernando.
+_FernandoNormal_Nada_ Ayla? Você está em casa? Tenho uma notícia excelente para vocês!
+Sala_AylaPadrao_AlicePadrao_ Sim, estamos em casa, qual a notícia?
+Sala_Narrador_Nada_ O Fernando não espera e desliga a ligação, deixando as duas nervosas com o mistério.
+Sala_AlicePadrao_AylaPadrao_ O que ele queria?
+Sala_AylaPadrao_AlicePadrao_ Não sei, ele disse apenas que tinha uma excelente notícia, será que é sobre a adoção?
+Sala_AlicePadrao_AylaPadrao_ Não sei, as vezes ele é tão exagerado… Prefiro não criar expectativas...
+_Narrador_Nada_ Escolha: 

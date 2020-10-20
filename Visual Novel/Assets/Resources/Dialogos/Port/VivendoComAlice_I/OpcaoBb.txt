@@ -1,0 +1,24 @@
+Sala_AylaPadrao_AlicePadrao_ Não precisa ficar brava Alice, eu apenas quero rever com ele e se você quiser também pode ficar conosco
+Sala_AlicePadrao_AylaPadrao_ Você sabe que eu não gosto dele
+Sala_AylaPadrao_AlicePadrao_ Sim, e eu já te disse que não tem necessidade disso, nós somos e sempre fomos apenas amigos, nada além disso
+Sala_AylaPadrao_AlicePadrao_ Se eu quisesse ficar com ele, já estaria. Mas veja bem: eu estou com você
+Sala_AlicePadrao_AylaPadrao_ Verdade… Mas quando for chamar ele, por favor, avise-me para eu não estar aqui
+Sala_AylaPadrao_AlicePadrao_ Já que prefere assim, tudo bem, agora termine de se arrumar para podermos sair
+Sala_AlicePadrao_AylaPadrao_ Certo. Aliás, eu acho que vi a caixa no quarto
+Sala_AylaPadrao_AlicePadrao_ Sério? Então vou lá olhar
+Sala_AylaPadrao_AlicePadrao_ Sei que você não quer ver com ele, mas gostaria de rever apenas comigo?
+Sala_AlicePadrao_AylaPadrao_ Sim, mas amanhã
+Sala_AylaPadrao_AlicePadrao_ Claro
+Sala_Narrador_Nada_ Logo Alice sai para terminar de se arrumar e Ayla vai para o quarto. Chegando lá procura um pouco e encontra a caixa.
+QuartoAyla_AylaPadrao_Nada_ Finalmente te achei! 
+Sala_AlicePadrao_Nada_ Ayla! Vamos?
+QuartoAyla_AylaPadrao_Nada_ Vamos! Até amanhã lindas lembranças
+Sala_Narrador_Nada_ Elas vão para o shopping e passam lá o restante do dia, chegando em casa, estão cansadas, então vão logo dormir.
+Sala_Narrador_Nada_ Pouco depois de acordarem e comerem, começam a ver as lembranças.
+Sala_AlicePadrao_AylaPadrao_ Nem parece que essa foto foi tirada há 6 anos...
+Sala_AylaPadrao_AlicePadrao_ Sim, parece mais que foi ontem…
+Sala_Narrador_Nada_ (Mostrar a foto)
+Sala_Narrador_Nada_ As duas ficam um tempo recordando tudo, desde as mais alegres até as mais tristes. Porém Alice percebe que chegara numa triste recordação recente
+Sala_AliceTriste_AylaTriste_ Não acredito que essa foto está aqui, desde que meus pais morreram, há 2 meses, que eu procuro por elas...
+Sala_AylaTriste_AliceTriste_ Sim, e pelo que me lembro, nesse dia contamos a eles que queremos adotar uma criança...
+_Narrador_Nada_ Escolha: 

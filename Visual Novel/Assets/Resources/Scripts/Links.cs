@@ -15,6 +15,21 @@ public class Links : MonoBehaviour
         Application.OpenURL("https://luna-estudio.itch.io/");
     }
 
+    public void AllyAndroid()
+    {
+        //Application.OpenURL("https://luna-estudio.itch.io/");
+    }
+
+    public void ThayAndroid()
+    {
+        Application.OpenURL("https://www.linkedin.com/in/thayane-carvalho-dos-santos-05861a167/");
+    }
+
+    public void MioAndroid()
+    {
+        //Application.OpenURL("https://luna-estudio.itch.io/");
+    }
+
     public void OpenInstagram()
     {
 		openWindow("https://www.instagram.com/lunaestudiogames/");
@@ -23,6 +38,19 @@ public class Links : MonoBehaviour
     {
         openWindow("https://luna-estudio.itch.io/");
     }
+    public void OpenAlly()
+    {
+        //openWindow("https://luna-estudio.itch.io/");
+    }
+    public void OpenThay()
+    {
+        openWindow("https://www.linkedin.com/in/thayane-carvalho-dos-santos-05861a167/");
+    }
+    public void OpenMio()
+    {
+        //openWindow("https://luna-estudio.itch.io/");
+    }
+
 
     [DllImport("__Internal")]
     private static extern void openWindow(string url);

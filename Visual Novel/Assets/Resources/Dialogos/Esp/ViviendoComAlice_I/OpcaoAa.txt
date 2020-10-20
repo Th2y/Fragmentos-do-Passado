@@ -1,0 +1,24 @@
+Sala_AylaPadrao_AylaPadrao_ Já, tomei banho e troquei de roupa, não estou afim de fazer muita coisa mesmo...
+Sala_AlicePadrao_AlicePadrao_ Novidade seria você querer fazer algo mais trabalhado…
+Sala_AylaPadrao_AylaPadrao_ Lá vem… Alice, vá terminar de se arrumar, fazer maquiagem, penteado e sei lá mais o quê enquanto eu procuro quietinha, ok?
+Sala_AlicePadrao_AlicePadrao_ Tudo bem, quando eu estiver pronta te chamo então
+Sala_AylaPadrao_AylaPadrao_ Certo, vou procurar no quarto então.
+Sala_Narrador_Nada_ Logo Alice foi tomar banho e Ayla começou as buscas no quarto
+QuartoAyla_AylaPadrao_Nada_ Finalmente! 
+Sala_AlicePadrao_Nada_ Ayla! Vamos?
+QuartoAyla_AylaPadrao_Nada_ Já?! Tudo bem, já estou indo! 
+Sala_Narrador_Nada_ Logo as duas saem para o shopping e passam lá o restante do dia, quando finalmente chegam em casa, estão cansadas e vão dormir.
+QuartoAyla_AylaPadrao_AlicePadrao_ Alice, aproveitando que hoje é domingo e não temos nada para fazer, quer rever comigo as nossas recordações?
+QuartoAyla_AlicePadrao_AylaPadrao_ Eu até queria, ontem você me fez ter vontade de fazer isso, mas estou com sono ainda, pode ser mais tarde?
+QuartoAyla_AylaPadrao_AlicePadrao_ Claro! Vou te deixar dormindo então
+QuartoAyla_Narrador_Nada_ Enquanto deixa a Alice dormindo mais um pouco, Ayla decide preparar a comida para as duas. Algum tempo depois, Alice acorda e logo começam a rever as fotos.
+Sala_AlicePadrao_AylaPadrao_ Nem parece que essa foto foi tirada há 6 anos...
+Sala_AylaPadrao_AlicePadrao_ Sim, parece mais que foi ontem…
+Sala_Narrador_Nada_ (Mostrar a foto)
+Sala_Narrador_Nada_ As duas ficam um tempo recordando tudo, desde as mais alegres até as mais tristes. Porém Alice percebe que chegara numa triste recordação recente
+Sala_AliceTriste_AylaTriste_ Está bom, melhor guardarmos
+Sala_AylaTriste_AliceTriste_ Desculpa, não sabia que esta foto estava aqui, faz tão pouco tempo...
+Sala_AliceTriste_AylaTriste_ Eu sei, faz apenas 2 meses, eu as vezes nem me lembro que meus pais não estão mais aqui, mas essa foto...
+Sala_AylaTriste_AliceTriste_ Sim, eu sei, essa foto foi tirada no mesmo dia em que contamos a todos o nosso plano de no próximo ano tentarmos adotar uma criança
+Sala_AliceTriste_AylaTriste_ Sim… Falando nisso… O que acha de começarmos a dar entrada no processo o mais rápido possível?
+_Narrador_Nada_ Escolha: 
