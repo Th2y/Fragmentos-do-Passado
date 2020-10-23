@@ -27,7 +27,7 @@ public class Links : MonoBehaviour
 
     public void MioAndroid()
     {
-        //Application.OpenURL("https://luna-estudio.itch.io/");
+        Application.OpenURL("https://www.linkedin.com/in/yasmin-alexandre-921a45190/");
     }
 
     public void OpenInstagram()
@@ -48,7 +48,7 @@ public class Links : MonoBehaviour
     }
     public void OpenMio()
     {
-        //openWindow("https://luna-estudio.itch.io/");
+        openWindow("https://www.linkedin.com/in/yasmin-alexandre-921a45190/");
     }
 
 

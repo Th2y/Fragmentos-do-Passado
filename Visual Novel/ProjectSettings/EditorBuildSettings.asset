@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Carregamento.unity
     guid: d3fe8d513713c5b459b7b5c477e025b2
   - enabled: 1
-    path: Assets/Resources/Scenes/Jogo.unity
+    path: Assets/Resources/Scenes/Fase1.unity
     guid: 376e21cad4abb6540ae7af8cfc9dbf7d
   m_configObjects: {}

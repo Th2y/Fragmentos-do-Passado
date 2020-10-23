@@ -46,12 +46,28 @@ public class BotaoCena : MonoBehaviour
         }
     }
 
-    public void CarregarCena(string opcoes)
+    public void Fase1()
     {
-        if (opcoes == "Jogo")
+        PlayerPrefs.SetString("Fase", "Fase1");
+    }
+
+    public void Fase2()
+    {
+        PlayerPrefs.SetString("Fase", "Fase2");
+    }
+
+    public void CarregarCena()
+    {
+        if (PlayerPrefs.GetString("Fase") == "Fase1" || !PlayerPrefs.HasKey("Fase"))
         {
             SceneManager.LoadScene("Carregamento");
-            Carregamento.cenaACarregar = "Jogo";
+            Carregamento.cenaACarregar = "Fase1";
+        }
+
+        else if (PlayerPrefs.GetString("Fase") == "Fase2")
+        {
+            SceneManager.LoadScene("Carregamento");
+            Carregamento.cenaACarregar = "Fase2";
         }
     }
 }
