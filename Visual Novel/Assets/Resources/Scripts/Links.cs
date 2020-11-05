@@ -17,7 +17,7 @@ public class Links : MonoBehaviour
 
     public void AllyAndroid()
     {
-        //Application.OpenURL("https://luna-estudio.itch.io/");
+        Application.OpenURL("https://www.linkedin.com/in/allicya-beatriz-moura-rosa-21712b1b9/");
     }
 
     public void ThayAndroid()
@@ -40,7 +40,7 @@ public class Links : MonoBehaviour
     }
     public void OpenAlly()
     {
-        //openWindow("https://luna-estudio.itch.io/");
+        openWindow("https://www.linkedin.com/in/allicya-beatriz-moura-rosa-21712b1b9/");
     }
     public void OpenThay()
     {
